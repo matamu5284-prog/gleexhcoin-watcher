@@ -1,0 +1,20 @@
+{
+  "lastMc": 9100000,
+  "lastFullCycleAt": null,
+  "fullCyclesToday": 0,
+  "fullCyclesDate": null,
+  "lastCall": "TAKE PARTIAL PROFIT",
+  "levels": {
+    "base": 4500000,
+    "support": 7590000,
+    "pivot": 9030000,
+    "resistance": 11190000,
+    "ath": 13820000,
+    "extTarget": 22000000
+  },
+  "position": {
+    "held": 28600,
+    "invested": 213.11,
+    "avgEntryMc": 5900000
+  }
+}
