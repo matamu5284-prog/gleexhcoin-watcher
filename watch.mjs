@@ -11,6 +11,7 @@ const MAX_FULL_CYCLES_PER_DAY = 30; // hard safety cap on paid API calls
 const MODEL = "claude-haiku-4-5-20251001"; // cheap, fast model for this job
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const ANTHROPIC_WORKSPACE_ID = process.env.ANTHROPIC_WORKSPACE_ID;
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
 function fmtUsd(n) {
@@ -77,6 +78,7 @@ Last call issued: ${state.lastCall}`;
       "content-type": "application/json",
       "x-api-key": ANTHROPIC_API_KEY,
       "anthropic-version": "2023-06-01",
+      ...(ANTHROPIC_WORKSPACE_ID ? { "anthropic-workspace-id": ANTHROPIC_WORKSPACE_ID } : {}),
     },
     body: JSON.stringify({
       model: MODEL,

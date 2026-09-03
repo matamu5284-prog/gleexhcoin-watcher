@@ -34,6 +34,12 @@ GitHub.
    Keys → Create Key). Anthropic API billing is pay-as-you-go; Haiku calls here are a
    fraction of a cent each, and the daily cap above bounds the worst case.
 2. **`DISCORD_WEBHOOK_URL`** — already set for you as part of this build.
+3. **`ANTHROPIC_WORKSPACE_ID`** — only needed if your API key is an "identity-linked"
+   key (Anthropic's newer key type tied to your account across workspaces, instead of
+   one workspace). If the workflow fails with `anthropic-workspace-id is required`,
+   find your workspace ID at console.anthropic.com → Settings → Workspaces (it's in
+   the URL, or the workspace's own settings page) and add it as this secret the same
+   way.
 
 That's it. The workflow (`.github/workflows/watch.yml`) is already scheduled — once
 `ANTHROPIC_API_KEY` is added, it starts working within a few minutes on its own.
