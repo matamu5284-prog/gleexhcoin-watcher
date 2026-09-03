@@ -10,7 +10,7 @@ Every 5 minutes, GitHub Actions runs `watch.mjs`:
 1. **Always:** fetches UBIK's price/MC/liquidity/volume from DexScreener's free public
    API and compares it to the last saved value in `state.json`.
 2. **On a real trigger** — market cap moved ≥4% since the last check-in, crossed a key
-   level, liquidity looks like it collapsed, or 30 minutes have passed since the last
+   level, liquidity looks like it collapsed, or 10 minutes have passed since the last
    check-in — it builds a detailed message directly from the live data (price, MC,
    5m/1h/24h change, liquidity, volume, distance to the nearest support/resistance
    levels, an estimated position P&L) and posts it to your Discord webhook.
@@ -18,8 +18,9 @@ Every 5 minutes, GitHub Actions runs `watch.mjs`:
 
 No LLM call is involved — the alert is a template filled in from live numbers, not an
 AI-generated report. That means no API key, no billing account, and nothing that can
-ever run out of credits. The daily cap (`MAX_FULL_CYCLES_PER_DAY`, default 30) just
-bounds how many Discord messages can fire in a day in the worst case.
+ever run out of credits. The daily cap (`MAX_FULL_CYCLES_PER_DAY`, default 150) just
+bounds how many Discord messages can fire in a day in the worst case — with a 10-minute
+floor, a fully quiet market still posts roughly every 10-15 minutes as a status update.
 
 ## One-time setup
 
@@ -34,8 +35,8 @@ working with no further setup.
 Edit the constants at the top of `watch.mjs`:
 
 - `MOVE_THRESHOLD_PCT` — how big a market cap move triggers an alert (default 4%)
-- `FULL_CYCLE_FLOOR_MIN` — max minutes between forced check-ins even if nothing moves (default 30)
-- `MAX_FULL_CYCLES_PER_DAY` — safety cap on alerts per day (default 30)
+- `FULL_CYCLE_FLOOR_MIN` — max minutes between forced check-ins even if nothing moves (default 10)
+- `MAX_FULL_CYCLES_PER_DAY` — safety cap on alerts per day (default 150)
 
 ## Limits, honestly
 

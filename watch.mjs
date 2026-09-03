@@ -6,8 +6,8 @@
 
 const TOKEN_ADDRESS = "0x812486eaea648819853f8e372dc9f1516c7868bd";
 const MOVE_THRESHOLD_PCT = 4; // escalate if MC moved this much since the last full cycle
-const FULL_CYCLE_FLOOR_MIN = 30; // force a full cycle at least this often regardless
-const MAX_FULL_CYCLES_PER_DAY = 30; // safety cap on how many alerts can fire per day
+const FULL_CYCLE_FLOOR_MIN = 10; // force a full cycle at least this often regardless
+const MAX_FULL_CYCLES_PER_DAY = 150; // safety cap on how many alerts can fire per day (10-min floor implies up to ~144/day from staleness alone)
 
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
