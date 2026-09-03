@@ -22,6 +22,23 @@ ever run out of credits. The daily cap (`MAX_FULL_CYCLES_PER_DAY`, default 150) 
 bounds how many Discord messages can fire in a day in the worst case — with a 10-minute
 floor, a fully quiet market still posts roughly every 10-15 minutes as a status update.
 
+## Historical data collection (`history.jsonl`)
+
+**Every** run — not just alert-triggering ones — appends one line to `history.jsonl`:
+timestamp, price, MC, liquidity, 24h volume, 5m/1h/24h % change, whether a level was
+crossed, and a few raw signal flags (`approaching_<level>`, `broke_above_<level>`,
+`momentum_up_all_timeframes`, etc. — see `detectSignals()` in `watch.mjs`). This is the
+free, computer-independent dataset a real backtest needs: it accumulates automatically
+on GitHub's infrastructure, no laptop or Claude session has to stay on.
+
+**Honest caveat:** this only starts accumulating from whenever this file was first
+committed — there's no way to get real historical minute-bar data for a coin that
+young for free. The signal flags are raw and unvalidated (no lookahead, no fitted
+thresholds) — they're inputs for backtesting later, not a strategy yet. Treat early
+backtest results as low-confidence until there are enough bars (weeks, not hours) to
+mean something. Scope is UBIK only for now; the same collection approach extends to
+other coins later without changing the architecture.
+
 ## One-time setup
 
 You need one repo secret (Settings → Secrets and variables → Actions → New repository

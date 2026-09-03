@@ -50,7 +50,7 @@ function crossedLevel(prevMc, curMc, levels) {
   return null;
 }
 
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, appendFileSync } from "node:fs";
 
 function loadState() {
   return JSON.parse(readFileSync("state.json", "utf8"));
@@ -58,6 +58,40 @@ function loadState() {
 
 function saveState(state) {
   writeFileSync("state.json", JSON.stringify(state, null, 2) + "\n");
+}
+
+const HISTORY_FILE = "history.jsonl";
+
+// Detects simple, honest signal flags from just this bar + the last bar — no lookahead,
+// no fitted parameters. This is raw material for a future backtest, not a validated
+// strategy. Every flag here should be explainable in one sentence.
+function detectSignals(market, prevMc, cross, levels) {
+  const flags = [];
+  const { above } = nearestLevels(market.mc, levels);
+  if (above && ((above.val - market.mc) / market.mc) * 100 <= 3) {
+    flags.push(`approaching_${above.key}`);
+  }
+  if (cross && market.mc > prevMc) flags.push(`broke_above_${cross.name}`);
+  if (cross && market.mc < prevMc) flags.push(`broke_below_${cross.name}`);
+  if (market.change5m > 0 && market.change1h > 0 && market.change24h > 0) flags.push("momentum_up_all_timeframes");
+  if (market.change5m < 0 && market.change1h < 0 && market.change24h < 0) flags.push("momentum_down_all_timeframes");
+  return flags;
+}
+
+function appendHistory(market, state, cross, signals) {
+  const row = {
+    t: new Date().toISOString(),
+    price: market.price,
+    mc: market.mc,
+    liquidity: market.liquidity ?? null,
+    volume24h: market.volume24h ?? null,
+    change5m: market.change5m ?? null,
+    change1h: market.change1h ?? null,
+    change24h: market.change24h ?? null,
+    crossed: cross ? cross.name : null,
+    signals,
+  };
+  appendFileSync(HISTORY_FILE, JSON.stringify(row) + "\n");
 }
 
 const LEVEL_LABELS = {
@@ -166,7 +200,10 @@ async function main() {
 
   const capped = state.fullCyclesToday >= MAX_FULL_CYCLES_PER_DAY;
 
-  console.log(`price=$${market.price} mc=${fmtUsd(market.mc)} prevMc=${fmtUsd(prevMc)} move=${pctMove.toFixed(2)}% trigger=${trigger || "none"} capped=${capped}`);
+  const signals = detectSignals(market, prevMc, cross, state.levels);
+  appendHistory(market, state, cross, signals);
+
+  console.log(`price=$${market.price} mc=${fmtUsd(market.mc)} prevMc=${fmtUsd(prevMc)} move=${pctMove.toFixed(2)}% trigger=${trigger || "none"} capped=${capped} signals=${signals.join(",") || "none"}`);
 
   if (trigger && !capped) {
     const message = buildAlertMessage(market, state, trigger);
