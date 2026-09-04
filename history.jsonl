@@ -158,3 +158,4 @@
 {"t":"2026-09-04T16:53:16.131Z","price":0.008416,"mc":8416630,"liquidity":267336.3,"volume24h":1280802.43,"change5m":null,"change1h":5.7,"change24h":-14.25,"crossed":null,"signals":[]}
 {"t":"2026-09-04T17:05:16.106Z","price":0.007927,"mc":7927472,"liquidity":259451.49,"volume24h":1277124.75,"change5m":2.39,"change1h":-0.94,"change24h":-29.26,"crossed":null,"signals":[]}
 {"t":"2026-09-04T17:19:25.067Z","price":0.007797,"mc":7797779,"liquidity":257320.44,"volume24h":1154647.25,"change5m":1.43,"change1h":-7.4,"change24h":-29.59,"crossed":null,"signals":[]}
+{"t":"2026-09-04T17:30:25.169Z","price":0.007458,"mc":7458141,"liquidity":251654.17,"volume24h":1116193.02,"change5m":-4.22,"change1h":-8.91,"change24h":-40.16,"crossed":"support","signals":["approaching_support","broke_below_support","momentum_down_all_timeframes"]}
