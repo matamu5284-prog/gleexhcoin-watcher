@@ -1,13 +1,30 @@
-// GleexhCoin autonomous UBIK watcher.
-// Cheap path (every run): fetch price/MC from DexScreener's free public API, compare to last
-// saved state. No API calls, no cost.
-// Trigger path (only on a real trigger): post a templated Discord alert built directly from the
-// live data — no LLM call, no billing dependency, completely free.
+// GleexhCoin autonomous UBIK watcher — fast-loop mode.
+// Runs as one long-lived job (not a one-shot) inside a single GitHub Actions run: polls
+// DexScreener's free public API every ~15s, no LLM call, no API key, no billing dependency.
+// Posts a templated Discord alert the moment a real trigger fires — seconds of lag, not
+// the 5-10+ minute lag a scheduled one-shot-per-cron-tick design would have. The workflow
+// restarts this job roughly hourly (see .github/workflows/watch.yml) since a single GitHub
+// Actions job can't run forever; state.json/history.jsonl carry continuity across restarts.
+// Public repos get free/unlimited GitHub Actions minutes, so running this near-continuously
+// costs nothing.
 
 const TOKEN_ADDRESS = "0x812486eaea648819853f8e372dc9f1516c7868bd";
-const MOVE_THRESHOLD_PCT = 4; // escalate if MC moved this much since the last full cycle
-const FULL_CYCLE_FLOOR_MIN = 10; // force a full cycle at least this often regardless
-const MAX_FULL_CYCLES_PER_DAY = 150; // safety cap on how many alerts can fire per day (10-min floor implies up to ~144/day from staleness alone)
+const POLL_INTERVAL_MS = 15_000; // how often to hit DexScreener — well under their rate limit
+const MAX_RUN_MS = 55 * 60 * 1000; // exit cleanly before GitHub's job runtime cap; workflow restarts hourly
+const COMMIT_INTERVAL_MS = 2 * 60 * 1000; // flush history/state to git this often, not every poll
+const MOVE_THRESHOLD_PCT = 4; // escalate if MC moved this much since the last alert (not the last poll)
+const FLASH_WINDOW_MS = 60_000; // "fast move" lookback window
+const FLASH_THRESHOLD_PCT = 2.5; // escalate on a move at least this big within FLASH_WINDOW_MS
+const FULL_CYCLE_FLOOR_MIN = 60; // heartbeat only now — real moves are caught near-instantly above
+const MAX_FULL_CYCLES_PER_DAY = 150; // safety cap, unlikely to be hit under normal operation
+
+// Paper-trading simulation: rule-based, no LLM, tests whether each raw signal flag is
+// actually worth anything. One open position per signal type at a time (no pyramiding).
+const PAPER_TARGET_PCT = 5; // close a win at +5% from entry
+const PAPER_STOP_PCT = 3; // close a loss at -3% from entry
+const PAPER_MAX_HOLD_MS = 3 * 60 * 60 * 1000; // force-close after 3h regardless (time-stop)
+const PAPER_SNIPPET_SIZE = 6; // price points kept around entry/exit for the dashboard's drill-down chart
+const PAPER_TRADES_FILE = "paperTrades.jsonl";
 
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
@@ -40,6 +57,8 @@ async function fetchMarketData() {
   };
 }
 
+// Only reports the first level crossed if a single poll gap skips multiple at once —
+// acceptable now that polls are ~15s apart (previously a known gap at 5-10min polling).
 function crossedLevel(prevMc, curMc, levels) {
   const vals = Object.entries(levels);
   for (const [name, level] of vals) {
@@ -51,6 +70,7 @@ function crossedLevel(prevMc, curMc, levels) {
 }
 
 import { readFileSync, writeFileSync, appendFileSync } from "node:fs";
+import { execSync } from "node:child_process";
 
 function loadState() {
   return JSON.parse(readFileSync("state.json", "utf8"));
@@ -174,9 +194,101 @@ async function postToDiscord(content) {
   if (!res.ok) console.error(`Discord webhook failed: ${res.status} ${await res.text()}`);
 }
 
-async function main() {
-  const state = loadState();
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// Skip flags that are just "the market is trending" noise, not a discrete entry signal —
+// otherwise every poll during a trend opens a redundant position.
+const PAPER_TRADEABLE_SIGNALS = new Set([
+  "broke_above_support", "broke_below_support",
+  "broke_above_pivot", "broke_below_pivot",
+  "broke_above_resistance", "broke_below_resistance",
+  "broke_above_ath", "broke_below_ath",
+  "broke_above_extTarget", "broke_below_extTarget",
+  "approaching_support", "approaching_pivot", "approaching_resistance",
+]);
+
+function openPaperTrades(state, market, signals, rollingBuffer) {
+  if (!state.openPaperTrades) state.openPaperTrades = {};
+  for (const sig of signals) {
+    if (!PAPER_TRADEABLE_SIGNALS.has(sig)) continue;
+    if (state.openPaperTrades[sig]) continue; // one open position per signal type
+    state.openPaperTrades[sig] = {
+      signal: sig,
+      entryAt: new Date().toISOString(),
+      entryPrice: market.price,
+      entryMc: market.mc,
+      entrySnippet: rollingBuffer.slice(-PAPER_SNIPPET_SIZE),
+    };
+    console.log(`[paper] opened ${sig} @ ${fmtUsd(market.mc)}`);
+  }
+}
+
+function closePaperTrades(state, market, rollingBuffer) {
+  if (!state.openPaperTrades) return;
+  const now = Date.now();
+  for (const sig of Object.keys(state.openPaperTrades)) {
+    const t = state.openPaperTrades[sig];
+    const pctReturn = ((market.price - t.entryPrice) / t.entryPrice) * 100;
+    const ageMs = now - new Date(t.entryAt).getTime();
+    let exitReason = null;
+    if (pctReturn >= PAPER_TARGET_PCT) exitReason = "target";
+    else if (pctReturn <= -PAPER_STOP_PCT) exitReason = "stop";
+    else if (ageMs >= PAPER_MAX_HOLD_MS) exitReason = "timeout";
+    if (!exitReason) continue;
+
+    const record = {
+      signal: sig,
+      entryAt: t.entryAt,
+      exitAt: new Date().toISOString(),
+      entryPrice: t.entryPrice,
+      entryMc: t.entryMc,
+      exitPrice: market.price,
+      exitMc: market.mc,
+      pctReturn: Number(pctReturn.toFixed(2)),
+      result: pctReturn > 0 ? "win" : "loss",
+      exitReason,
+      entrySnippet: t.entrySnippet,
+      exitSnippet: rollingBuffer.slice(-PAPER_SNIPPET_SIZE),
+    };
+    appendFileSync(PAPER_TRADES_FILE, JSON.stringify(record) + "\n");
+    console.log(`[paper] closed ${sig} — ${record.result} ${record.pctReturn}% (${exitReason})`);
+    delete state.openPaperTrades[sig];
+  }
+}
+
+function run(cmd) {
+  return execSync(cmd, { stdio: ["ignore", "pipe", "pipe"] }).toString().trim();
+}
+
+// Commits are batched (not one per poll) to avoid hammering git with a push every 15s.
+// Failures are logged and swallowed — a missed commit just means the next flush picks it
+// up; it must never crash the polling loop.
+function flushToGit() {
+  try {
+    const status = run("git status --porcelain -- state.json history.jsonl paperTrades.jsonl");
+    if (!status) return;
+    run("git add state.json history.jsonl paperTrades.jsonl");
+    run(`git commit -m "state + history update (fast loop) [skip ci]"`);
+    try {
+      run("git pull --rebase --autostash origin main");
+    } catch (e) {
+      console.error("git pull --rebase failed, pushing anyway:", e.message);
+    }
+    run("git push");
+    console.log(`[git] flushed at ${new Date().toISOString()}`);
+  } catch (err) {
+    console.error("[git] flush failed, will retry next interval:", err.message);
+  }
+}
+
+async function pollOnce(state, recentPolls, rollingBuffer) {
   const market = await fetchMarketData();
+  const now = Date.now();
+
+  rollingBuffer.push({ t: new Date().toISOString(), price: market.price, mc: market.mc });
+  if (rollingBuffer.length > 40) rollingBuffer.shift();
 
   const today = new Date().toISOString().slice(0, 10);
   if (state.fullCyclesDate !== today) {
@@ -184,32 +296,49 @@ async function main() {
     state.fullCyclesToday = 0;
   }
 
-  const prevMc = state.lastMc || market.mc;
-  const pctMove = Math.abs((market.mc - prevMc) / prevMc) * 100;
-  const cross = crossedLevel(prevMc, market.mc, state.levels);
-  const minutesSinceLastFull = state.lastFullCycleAt
-    ? (Date.now() - new Date(state.lastFullCycleAt).getTime()) / 60000
-    : Infinity;
+  const prevPollMc = state.lastMc || market.mc;
+  const alertBaselineMc = state.lastAlertMc || state.lastMc || market.mc;
+  const cross = crossedLevel(prevPollMc, market.mc, state.levels);
+  const cumulativeMovePct = Math.abs((market.mc - alertBaselineMc) / alertBaselineMc) * 100;
   const liquidityCollapsed = market.liquidity != null && market.liquidity < 5000;
+  const minutesSinceLastFull = state.lastFullCycleAt
+    ? (now - new Date(state.lastFullCycleAt).getTime()) / 60000
+    : Infinity;
+
+  // flash-move check: biggest % swing within the last FLASH_WINDOW_MS of polls
+  recentPolls.push({ t: now, mc: market.mc });
+  while (recentPolls.length && now - recentPolls[0].t > FLASH_WINDOW_MS) recentPolls.shift();
+  const windowMcs = recentPolls.map((p) => p.mc);
+  const flashPct = windowMcs.length > 1
+    ? (Math.max(...windowMcs) - Math.min(...windowMcs)) / Math.min(...windowMcs) * 100
+    : 0;
 
   let trigger = null;
   if (liquidityCollapsed) trigger = "LIQUIDITY COLLAPSE — possible dead token";
   else if (cross) trigger = `Level crossed: ${cross.name} (${fmtUsd(cross.level)})`;
-  else if (pctMove >= MOVE_THRESHOLD_PCT) trigger = `MC moved ${pctMove.toFixed(1)}% since last full cycle`;
-  else if (minutesSinceLastFull >= FULL_CYCLE_FLOOR_MIN) trigger = `${FULL_CYCLE_FLOOR_MIN}-minute staleness floor`;
+  else if (flashPct >= FLASH_THRESHOLD_PCT) trigger = `FLASH MOVE — ${flashPct.toFixed(1)}% within ${FLASH_WINDOW_MS / 1000}s`;
+  else if (cumulativeMovePct >= MOVE_THRESHOLD_PCT) trigger = `MC moved ${cumulativeMovePct.toFixed(1)}% since last alert`;
+  else if (minutesSinceLastFull >= FULL_CYCLE_FLOOR_MIN) trigger = `${FULL_CYCLE_FLOOR_MIN}-minute heartbeat`;
 
   const capped = state.fullCyclesToday >= MAX_FULL_CYCLES_PER_DAY;
-
-  const signals = detectSignals(market, prevMc, cross, state.levels);
+  const signals = detectSignals(market, prevPollMc, cross, state.levels);
   appendHistory(market, state, cross, signals);
 
-  console.log(`price=$${market.price} mc=${fmtUsd(market.mc)} prevMc=${fmtUsd(prevMc)} move=${pctMove.toFixed(2)}% trigger=${trigger || "none"} capped=${capped} signals=${signals.join(",") || "none"}`);
+  closePaperTrades(state, market, rollingBuffer); // check exits before opening new ones
+  openPaperTrades(state, market, signals, rollingBuffer);
+
+  console.log(
+    `[${new Date().toISOString()}] price=$${market.price} mc=${fmtUsd(market.mc)} ` +
+    `cumMove=${cumulativeMovePct.toFixed(2)}% flash=${flashPct.toFixed(2)}% ` +
+    `trigger=${trigger || "none"} capped=${capped} signals=${signals.join(",") || "none"}`
+  );
 
   if (trigger && !capped) {
     const message = buildAlertMessage(market, state, trigger);
     await postToDiscord(message);
     state.lastFullCycleAt = new Date().toISOString();
     state.fullCyclesToday += 1;
+    state.lastAlertMc = market.mc; // reset the cumulative-move baseline on every alert
   } else if (trigger && capped) {
     console.log("Trigger fired but daily alert cap reached — staying quiet, cheap-check only.");
   }
@@ -218,7 +347,34 @@ async function main() {
   saveState(state);
 }
 
+async function main() {
+  const state = loadState();
+  const recentPolls = [];
+  const rollingBuffer = [];
+  const startTime = Date.now();
+  let lastCommit = Date.now();
+
+  console.log(`Fast-loop watcher starting — polling every ${POLL_INTERVAL_MS / 1000}s for up to ${(MAX_RUN_MS / 60000).toFixed(0)} min.`);
+
+  while (Date.now() - startTime < MAX_RUN_MS) {
+    try {
+      await pollOnce(state, recentPolls, rollingBuffer);
+    } catch (err) {
+      console.error("Poll failed, will retry next interval:", err.message);
+    }
+    if (Date.now() - lastCommit >= COMMIT_INTERVAL_MS) {
+      flushToGit();
+      lastCommit = Date.now();
+    }
+    await sleep(POLL_INTERVAL_MS);
+  }
+
+  flushToGit();
+  console.log("Fast-loop watcher exiting cleanly — workflow will restart it shortly.");
+}
+
 main().catch((err) => {
   console.error("Watcher failed:", err);
+  flushToGit();
   process.exit(1);
 });

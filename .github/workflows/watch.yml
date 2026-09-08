@@ -2,8 +2,10 @@ name: GleexhCoin UBIK Watcher
 
 on:
   schedule:
-    # GitHub's scheduler isn't reliable below ~5 minutes and may queue/skip during load.
-    - cron: "*/5 * * * *"
+    # The job itself loops internally for ~55min polling every 15s (see watch.mjs) — this
+    # cron just restarts it before GitHub's ~6h job runtime cap. Offset off :00 to avoid
+    # GitHub's own top-of-hour scheduling congestion.
+    - cron: "7 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -16,6 +18,7 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
 
@@ -23,15 +26,20 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Run watcher
+      - name: Configure git identity
+        run: |
+          git config user.name "gleexhcoin-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Run fast-loop watcher (polls ~every 15s, commits every ~2min)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: node watch.mjs
 
-      - name: Commit updated state
+      - name: Safety-net commit (in case the loop's own flush missed anything)
+        if: always()
         run: |
-          git config user.name "gleexhcoin-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add state.json history.jsonl
-          git diff --cached --quiet || git commit -m "state + history update [skip ci]"
-          git push
+          git add state.json history.jsonl paperTrades.jsonl
+          git diff --cached --quiet || git commit -m "state + history update (safety net) [skip ci]"
+          git pull --rebase --autostash origin main || true
+          git push || true
