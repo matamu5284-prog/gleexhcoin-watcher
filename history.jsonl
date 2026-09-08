@@ -1361,3 +1361,11 @@
 {"t":"2026-09-08T23:43:12.711Z","price":0.02231,"mc":22317099,"liquidity":280086.2,"volume24h":2017573.31,"change5m":0.23,"change1h":-11.2,"change24h":5.6,"crossed":null,"signals":[]}
 {"t":"2026-09-08T23:43:27.904Z","price":0.02231,"mc":22317099,"liquidity":280086.2,"volume24h":2017486.34,"change5m":0.27,"change1h":-11.82,"change24h":5.55,"crossed":null,"signals":[]}
 {"t":"2026-09-08T23:43:42.961Z","price":0.02231,"mc":22317099,"liquidity":280086.2,"volume24h":2017486.34,"change5m":0.27,"change1h":-11.82,"change24h":5.55,"crossed":null,"signals":[]}
+{"t":"2026-09-08T23:43:59.965Z","price":0.02231,"mc":22318941,"liquidity":280089.08,"volume24h":2017505.75,"change5m":0.28,"change1h":-11.82,"change24h":5.56,"crossed":null,"signals":[]}
+{"t":"2026-09-08T23:44:15.036Z","price":0.02231,"mc":22318941,"liquidity":280089.08,"volume24h":2017505.75,"change5m":0.28,"change1h":-11.82,"change24h":5.56,"crossed":null,"signals":[]}
+{"t":"2026-09-08T23:44:30.198Z","price":0.02231,"mc":22318941,"liquidity":280089.08,"volume24h":2017505.75,"change5m":0.28,"change1h":-11.82,"change24h":5.56,"crossed":null,"signals":[]}
+{"t":"2026-09-08T23:44:45.255Z","price":0.02231,"mc":22318941,"liquidity":280089.08,"volume24h":2017505.75,"change5m":0.28,"change1h":-11.82,"change24h":5.56,"crossed":null,"signals":[]}
+{"t":"2026-09-08T23:45:00.410Z","price":0.02231,"mc":22318941,"liquidity":280089.08,"volume24h":2017321.19,"change5m":0.26,"change1h":-11.82,"change24h":5.77,"crossed":null,"signals":[]}
+{"t":"2026-09-08T23:45:15.465Z","price":0.02231,"mc":22318941,"liquidity":280089.08,"volume24h":2017321.19,"change5m":0.26,"change1h":-11.82,"change24h":5.77,"crossed":null,"signals":[]}
+{"t":"2026-09-08T23:45:30.638Z","price":0.02177,"mc":21775269,"liquidity":279239,"volume24h":2028274.58,"change5m":-2.67,"change1h":-13.96,"change24h":3.19,"crossed":"extTarget","signals":["approaching_extTarget","broke_below_extTarget"]}
+{"t":"2026-09-08T23:45:46.071Z","price":0.02177,"mc":21775269,"liquidity":279239,"volume24h":2028274.58,"change5m":-2.67,"change1h":-13.96,"change24h":3.19,"crossed":null,"signals":["approaching_extTarget"]}
