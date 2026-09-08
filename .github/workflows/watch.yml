@@ -31,9 +31,13 @@ jobs:
           git config user.name "gleexhcoin-bot"
           git config user.email "actions@users.noreply.github.com"
 
-      - name: Run fast-loop watcher (polls ~every 15s, commits every ~2min)
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Run fast-loop watcher (polls ~every 15s, plus instant on-chain swap triggers)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
         run: node watch.mjs
 
       - name: Safety-net commit (in case the loop's own flush missed anything)

@@ -28,6 +28,18 @@ const PAPER_TRADES_FILE = "paperTrades.jsonl";
 
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
+// Optional instant on-chain swap detection (Alchemy free tier — no cost, no card).
+// When ALCHEMY_API_KEY is unset this whole path is a no-op and the watcher behaves
+// exactly as before: pure 15s polling. When set, a live WebSocket subscription to
+// Uniswap v4's PoolManager on Robinhood Chain fires an out-of-cycle poll the instant a
+// swap lands on UBIK's pool — catching real moves in ~1-3s instead of waiting up to 15s.
+const ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY;
+const ALCHEMY_WS_URL = ALCHEMY_API_KEY ? `wss://robinhood-chain.g.alchemy.com/v2/${ALCHEMY_API_KEY}` : null;
+const POOL_MANAGER_ADDRESS = "0x8366a39cc670b4001a1121b8f6a443a643e40951"; // Uniswap v4 PoolManager on Robinhood Chain (per Uniswap's official deployments doc — addresses differ per chain in v4, confirmed not the same as mainnet/Arbitrum)
+const UBIK_POOL_ID = "0x1f28c0c3938fd48947bdb02c43377534ef0a3ffb23945e68052bcaaec1d2e676"; // UBIK/GLD v4 pool id, from DexScreener's pairAddress field
+const SWAP_TOPIC0 = "0x40e9cecb9f5f1f1c5b9c97dec2917b7ee92e57ba5563708daca94dd84ad7112f"; // keccak256("Swap(bytes32,address,int128,int128,uint160,uint128,int24,uint24)")
+const EVENT_POLL_MIN_GAP_MS = 3000; // debounce so a burst of swaps can't hammer DexScreener faster than this
+
 function fmtUsd(n) {
   if (n == null || Number.isNaN(n)) return "—";
   if (Math.abs(n) >= 1e6) return "$" + (n / 1e6).toFixed(2) + "M";
@@ -198,6 +210,56 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// Subscribes to Uniswap v4 Swap logs on UBIK's pool via Alchemy's free WebSocket RPC.
+// Deliberately does NOT decode price from the log itself (sqrtPriceX96 math is easy to get
+// subtly wrong) — it just tells the caller "a swap happened right now," and the caller
+// re-uses the same trusted DexScreener-based pollOnce() to get the real numbers. This is
+// a no-op (falls back to pure interval polling) when ALCHEMY_API_KEY isn't set.
+async function startOnChainWatcher(onSwap, isRunning) {
+  if (!ALCHEMY_WS_URL) {
+    console.log("[onchain] No ALCHEMY_API_KEY set — instant on-chain swap detection disabled, using interval polling only.");
+    return;
+  }
+  const { default: WebSocket } = await import("ws");
+  let backoffMs = 3000;
+
+  function connect() {
+    if (!isRunning()) return;
+    const ws = new WebSocket(ALCHEMY_WS_URL);
+    ws.on("open", () => {
+      backoffMs = 3000;
+      console.log("[onchain] connected to Robinhood Chain, subscribing to UBIK pool swaps");
+      ws.send(JSON.stringify({
+        jsonrpc: "2.0",
+        id: 1,
+        method: "eth_subscribe",
+        params: ["logs", { address: POOL_MANAGER_ADDRESS, topics: [SWAP_TOPIC0, UBIK_POOL_ID] }],
+      }));
+    });
+    ws.on("message", (raw) => {
+      try {
+        const msg = JSON.parse(raw.toString());
+        if (msg.method === "eth_subscription" && msg.params?.result) {
+          console.log("[onchain] swap detected on UBIK pool — triggering instant poll");
+          onSwap();
+        }
+      } catch {
+        // malformed frame, ignore — the next real event will still come through
+      }
+    });
+    ws.on("close", () => {
+      if (!isRunning()) return;
+      console.log(`[onchain] disconnected, reconnecting in ${backoffMs / 1000}s`);
+      setTimeout(connect, backoffMs);
+      backoffMs = Math.min(backoffMs * 2, 30000);
+    });
+    ws.on("error", (err) => {
+      console.error("[onchain] websocket error:", err.message);
+    });
+  }
+  connect();
+}
+
 // Skip flags that are just "the market is trending" noise, not a discrete entry signal —
 // otherwise every poll during a trend opens a redundant position.
 const PAPER_TRADEABLE_SIGNALS = new Set([
@@ -353,15 +415,33 @@ async function main() {
   const rollingBuffer = [];
   const startTime = Date.now();
   let lastCommit = Date.now();
+  let lastPollAt = 0;
+  let pollBusy = false;
+  let running = true;
 
-  console.log(`Fast-loop watcher starting — polling every ${POLL_INTERVAL_MS / 1000}s for up to ${(MAX_RUN_MS / 60000).toFixed(0)} min.`);
-
-  while (Date.now() - startTime < MAX_RUN_MS) {
+  async function triggeredPoll() {
+    const now = Date.now();
+    if (pollBusy || now - lastPollAt < EVENT_POLL_MIN_GAP_MS) return;
+    pollBusy = true;
+    lastPollAt = now;
     try {
       await pollOnce(state, recentPolls, rollingBuffer);
     } catch (err) {
       console.error("Poll failed, will retry next interval:", err.message);
+    } finally {
+      pollBusy = false;
     }
+  }
+
+  startOnChainWatcher(() => { triggeredPoll(); }, () => running).catch((err) => {
+    console.error("[onchain] failed to start, continuing on interval polling only:", err.message);
+  });
+
+  console.log(`Fast-loop watcher starting — polling every ${POLL_INTERVAL_MS / 1000}s for up to ${(MAX_RUN_MS / 60000).toFixed(0)} min` +
+    (ALCHEMY_WS_URL ? ", plus instant on-chain swap triggers." : "."));
+
+  while (Date.now() - startTime < MAX_RUN_MS) {
+    await triggeredPoll();
     if (Date.now() - lastCommit >= COMMIT_INTERVAL_MS) {
       flushToGit();
       lastCommit = Date.now();
@@ -369,6 +449,7 @@ async function main() {
     await sleep(POLL_INTERVAL_MS);
   }
 
+  running = false;
   flushToGit();
   console.log("Fast-loop watcher exiting cleanly — workflow will restart it shortly.");
 }

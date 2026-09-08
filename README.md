@@ -26,6 +26,25 @@ Every ~15 seconds:
 State and history are flushed to git every ~2 minutes (not every poll, to avoid
 hammering git with a commit every 15s), plus a final flush when a run exits.
 
+## Instant on-chain swap triggers (optional, free — `ALCHEMY_API_KEY`)
+
+When the `ALCHEMY_API_KEY` repo secret is set, the watcher also opens a free WebSocket
+subscription (Alchemy's free tier — no card, 30M compute units/mo) to Uniswap v4's
+`PoolManager` contract on Robinhood Chain, filtered to UBIK's specific pool id. The
+instant a swap lands on-chain, it fires an out-of-cycle poll (debounced to at most once
+per 3s so a burst of trades can't hammer DexScreener) instead of waiting for the next
+15s tick — cutting detection latency for a live level touch or a big move from "up to
+15s" down to roughly 1-3s. It deliberately does **not** decode price from the raw log
+itself (Uniswap v4's `sqrtPriceX96` math is easy to get subtly wrong) — the swap event is
+only a trigger; the real price/MC numbers still come from the same trusted DexScreener
+pull used everywhere else. If `ALCHEMY_API_KEY` isn't set, this whole path is skipped and
+the watcher behaves exactly as the pure-polling design below.
+
+Verified live: connecting to `wss://robinhood-mainnet.g.alchemy.com/v2/<key>` and
+subscribing to `PoolManager` (`0x8366a39cc670b4001a1121b8f6a443a643e40951`) with UBIK's
+pool id as the topic filter caught a real UBIK swap within a 60-second test window,
+confirming the address, event signature, and pool id are all correct.
+
 **Why the redesign:** the old design polled once per 5-10 minute cron tick, so both the
 reported price and the alert could lag the real market by many minutes — exactly what
 made Discord alerts feel late and the reported price feel off from what FOMO showed live.
