@@ -1552,3 +1552,11 @@
 {"t":"2026-09-09T04:46:53.329Z","price":0.02544,"mc":25443033,"liquidity":272851.12,"volume24h":2151663.59,"change5m":0.37,"change1h":11.71,"change24h":40.63,"crossed":null,"signals":["momentum_up_all_timeframes"]}
 {"t":"2026-09-09T04:47:08.646Z","price":0.02535,"mc":25350405,"liquidity":272788.26,"volume24h":2152067.95,"change5m":null,"change1h":11.3,"change24h":40.11,"crossed":null,"signals":[]}
 {"t":"2026-09-09T04:47:23.664Z","price":0.02535,"mc":25350405,"liquidity":272788.26,"volume24h":2152067.95,"change5m":null,"change1h":11.3,"change24h":40.11,"crossed":null,"signals":[]}
+{"t":"2026-09-09T04:47:40.710Z","price":0.02535,"mc":25350405,"liquidity":272788.26,"volume24h":2152067.95,"change5m":null,"change1h":11.3,"change24h":40.11,"crossed":null,"signals":[]}
+{"t":"2026-09-09T04:47:55.729Z","price":0.02535,"mc":25350405,"liquidity":272788.26,"volume24h":2152067.95,"change5m":null,"change1h":11.3,"change24h":40.11,"crossed":null,"signals":[]}
+{"t":"2026-09-09T04:48:10.886Z","price":0.02535,"mc":25350405,"liquidity":272788.26,"volume24h":2151071.34,"change5m":-0.08,"change1h":11.33,"change24h":39.89,"crossed":null,"signals":[]}
+{"t":"2026-09-09T04:48:25.918Z","price":0.02535,"mc":25350405,"liquidity":272788.26,"volume24h":2151071.34,"change5m":-0.08,"change1h":11.33,"change24h":39.89,"crossed":null,"signals":[]}
+{"t":"2026-09-09T04:48:41.065Z","price":0.02557,"mc":25579807,"liquidity":272945.77,"volume24h":2151720.25,"change5m":0.84,"change1h":12.41,"change24h":41.74,"crossed":null,"signals":["momentum_up_all_timeframes"]}
+{"t":"2026-09-09T04:48:56.092Z","price":0.02557,"mc":25579807,"liquidity":272945.77,"volume24h":2151720.25,"change5m":0.84,"change1h":12.41,"change24h":41.74,"crossed":null,"signals":["momentum_up_all_timeframes"]}
+{"t":"2026-09-09T04:49:11.215Z","price":0.02553,"mc":25535858,"liquidity":273412.64,"volume24h":2151909.43,"change5m":0.66,"change1h":12.21,"change24h":41.49,"crossed":null,"signals":["momentum_up_all_timeframes"]}
+{"t":"2026-09-09T04:49:26.255Z","price":0.02553,"mc":25535858,"liquidity":273412.64,"volume24h":2151909.43,"change5m":0.66,"change1h":12.21,"change24h":41.49,"crossed":null,"signals":["momentum_up_all_timeframes"]}
