@@ -2960,3 +2960,11 @@
 {"t":"2026-09-10T06:37:22.543Z","price":0.02236,"mc":22362530,"liquidity":378848.15,"volume24h":2162614.16,"change5m":-0.34,"change1h":2.02,"change24h":-18.24,"crossed":null,"signals":[]}
 {"t":"2026-09-10T06:37:37.596Z","price":0.02236,"mc":22362530,"liquidity":378848.15,"volume24h":2162614.16,"change5m":-0.34,"change1h":2.02,"change24h":-18.24,"crossed":null,"signals":[]}
 {"t":"2026-09-10T06:37:52.765Z","price":0.02227,"mc":22276251,"liquidity":378382.56,"volume24h":2163870.37,"change5m":-0.72,"change1h":-0.94,"change24h":-18.67,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-10T06:38:09.687Z","price":0.02227,"mc":22276251,"liquidity":378382.56,"volume24h":2163870.37,"change5m":-0.72,"change1h":-0.94,"change24h":-18.67,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-10T06:38:24.847Z","price":0.02224,"mc":22246287,"liquidity":378219.58,"volume24h":2162465.36,"change5m":-0.88,"change1h":-1.4,"change24h":-18.03,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-10T06:38:39.914Z","price":0.02224,"mc":22246287,"liquidity":378219.58,"volume24h":2162465.36,"change5m":-0.88,"change1h":-1.4,"change24h":-18.03,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-10T06:38:55.146Z","price":0.02224,"mc":22246287,"liquidity":378219.58,"volume24h":2162465.36,"change5m":-0.88,"change1h":-1.4,"change24h":-18.03,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-10T06:39:10.188Z","price":0.02224,"mc":22246287,"liquidity":378219.58,"volume24h":2162465.36,"change5m":-0.88,"change1h":-1.4,"change24h":-18.03,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-10T06:39:25.370Z","price":0.02225,"mc":22255272,"liquidity":378268.52,"volume24h":2160593.22,"change5m":-0.84,"change1h":-1.39,"change24h":-19.29,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-10T06:39:40.411Z","price":0.02225,"mc":22255272,"liquidity":378268.52,"volume24h":2160593.22,"change5m":-0.84,"change1h":-1.39,"change24h":-19.29,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-10T06:39:55.642Z","price":0.02225,"mc":22255272,"liquidity":378268.52,"volume24h":2160593.22,"change5m":-0.84,"change1h":-1.39,"change24h":-19.29,"crossed":null,"signals":["momentum_down_all_timeframes"]}
