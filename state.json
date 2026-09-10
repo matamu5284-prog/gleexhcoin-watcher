@@ -1,7 +1,7 @@
 {
-  "lastMc": 26347488,
-  "lastFullCycleAt": "2026-09-10T22:30:10.217Z",
-  "fullCyclesToday": 37,
+  "lastMc": 25183887,
+  "lastFullCycleAt": "2026-09-10T22:36:16.103Z",
+  "fullCyclesToday": 39,
   "fullCyclesDate": "2026-09-10",
   "lastCall": "TAKE PARTIAL PROFIT",
   "levels": {
@@ -17,20 +17,6 @@
     "invested": 213.11,
     "avgEntryMc": 5900000
   },
-  "openPaperTrades": {
-    "broke_above_extTarget": {
-      "signal": "broke_above_extTarget",
-      "entryAt": "2026-09-10T22:30:09.406Z",
-      "entryPrice": 0.02688,
-      "entryMc": 26881367,
-      "entrySnippet": [
-        {
-          "t": "2026-09-10T22:30:09.405Z",
-          "price": 0.02688,
-          "mc": 26881367
-        }
-      ]
-    }
-  },
-  "lastAlertMc": 26881367
+  "openPaperTrades": {},
+  "lastAlertMc": 25183887
 }
