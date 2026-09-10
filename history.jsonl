@@ -2633,3 +2633,11 @@
 {"t":"2026-09-10T00:23:36.124Z","price":0.02085,"mc":20853533,"liquidity":383113.39,"volume24h":2135872.51,"change5m":-0.61,"change1h":0.88,"change24h":-6.34,"crossed":null,"signals":[]}
 {"t":"2026-09-10T00:23:51.220Z","price":0.02085,"mc":20853533,"liquidity":383113.39,"volume24h":2135872.51,"change5m":-0.61,"change1h":0.88,"change24h":-6.34,"crossed":null,"signals":[]}
 {"t":"2026-09-10T00:24:06.480Z","price":0.02085,"mc":20853533,"liquidity":383113.39,"volume24h":2135872.51,"change5m":-0.61,"change1h":0.88,"change24h":-6.34,"crossed":null,"signals":[]}
+{"t":"2026-09-10T00:24:23.465Z","price":0.02085,"mc":20853533,"liquidity":383113.39,"volume24h":2135872.51,"change5m":-0.61,"change1h":0.88,"change24h":-6.34,"crossed":null,"signals":[]}
+{"t":"2026-09-10T00:24:38.596Z","price":0.021,"mc":21001349,"liquidity":384015.46,"volume24h":2138964.33,"change5m":0.06,"change1h":1.05,"change24h":-5.69,"crossed":null,"signals":[]}
+{"t":"2026-09-10T00:24:53.675Z","price":0.021,"mc":21001349,"liquidity":384015.46,"volume24h":2138964.33,"change5m":0.06,"change1h":1.05,"change24h":-5.69,"crossed":null,"signals":[]}
+{"t":"2026-09-10T00:25:08.878Z","price":0.0213,"mc":21306068,"liquidity":385812.49,"volume24h":2144797.97,"change5m":1.52,"change1h":2.51,"change24h":-4.32,"crossed":null,"signals":[]}
+{"t":"2026-09-10T00:25:23.964Z","price":0.0213,"mc":21306068,"liquidity":385812.49,"volume24h":2144797.97,"change5m":1.52,"change1h":2.51,"change24h":-4.32,"crossed":null,"signals":[]}
+{"t":"2026-09-10T00:25:39.173Z","price":0.02138,"mc":21384205,"liquidity":386260.06,"volume24h":2146256.03,"change5m":1.89,"change1h":2.55,"change24h":-3.97,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-09-10T00:25:54.256Z","price":0.02138,"mc":21384205,"liquidity":386260.06,"volume24h":2146256.03,"change5m":1.89,"change1h":2.55,"change24h":-3.97,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-09-10T00:26:09.439Z","price":0.02138,"mc":21384205,"liquidity":386260.06,"volume24h":2146256.03,"change5m":1.89,"change1h":2.55,"change24h":-3.97,"crossed":null,"signals":["approaching_extTarget"]}
