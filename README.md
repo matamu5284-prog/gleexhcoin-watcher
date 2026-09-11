@@ -91,20 +91,44 @@ backtest results as low-confidence until there are enough bars (weeks, not hours
 mean something. Scope is UBIK only for now; the same collection approach extends to
 other coins later without changing the architecture.
 
+## Portfolio (multiple tokens)
+
+`TOKENS` at the top of `watch.mjs` is a list, not a single token — each entry needs a
+`symbol`, a token `address`, and an optional `poolId` (only needed for the instant
+on-chain trigger; leave it out and the token still gets 15s interval polling). Each
+token's state (position, level ladder, alert baselines, paper trades) lives independently
+under `state.tokens[symbol]`, so adding a token to `TOKENS` doesn't touch any other
+token's numbers. A brand-new token with no `state.tokens[symbol]` entry yet gets seeded
+with a zero position and a flat level ladder — edit `state.json` by hand to give it real
+entry price/levels once you've actually bought it, the same way UBIK's numbers were
+originally hand-seeded.
+
 ## One-time setup
 
-You need one repo secret (Settings → Secrets and variables → Actions → New repository
-secret): **`DISCORD_WEBHOOK_URL`** — already set for you as part of this build.
+Repo secrets (Settings → Secrets and variables → Actions → New repository secret):
 
-That's it — the workflow (`.github/workflows/watch.yml`) is already scheduled and
-working with no further setup.
+- **`DISCORD_WEBHOOK_URL`** — already set as part of the original build.
+- **`SMS_TO`**, **`GMAIL_USER`**, **`GMAIL_APP_PASSWORD`** — for the free SMS channel
+  (texts only on moves ≥`SMS_MOVE_THRESHOLD_PCT`, separate from Discord's lower
+  threshold). All three must be set or SMS is silently skipped:
+  - `SMS_TO` — your number at your carrier's email-to-SMS gateway, e.g.
+    `7812171812@txt.att.net` for AT&T (`@vtext.com` Verizon, `@tmomail.net` T-Mobile).
+  - `GMAIL_USER` — a Gmail address to send *from* (a throwaway/dedicated one is fine).
+  - `GMAIL_APP_PASSWORD` — **not** that account's regular password. Turn on 2-Step
+    Verification on the Gmail account, then generate one at
+    myaccount.google.com/apppasswords. Gmail's SMTP rejects a plain account password —
+    this is almost certainly why a prior attempt at this failed with an auth error.
+
+That's it — the workflow (`.github/workflows/watch.yml`) is already scheduled and picks
+up whichever of these secrets are set with no code changes needed.
 
 ## Tuning
 
 Edit the constants at the top of `watch.mjs`:
 
-- `POLL_INTERVAL_MS` — how often to hit DexScreener (default 15s)
-- `MOVE_THRESHOLD_PCT` — cumulative % move since the last alert that triggers one (default 4%)
+- `POLL_INTERVAL_MS` — how often to hit DexScreener per token (default 15s)
+- `MOVE_THRESHOLD_PCT` — cumulative % move since the last alert that triggers a Discord post (default 4%)
+- `SMS_MOVE_THRESHOLD_PCT` — cumulative % move that triggers a text (default 7%, independent baseline from Discord's)
 - `FLASH_THRESHOLD_PCT` / `FLASH_WINDOW_MS` — fast-move trigger (default 2.5% within 60s)
 - `FULL_CYCLE_FLOOR_MIN` — heartbeat interval when nothing else fires (default 60min)
 - `MAX_FULL_CYCLES_PER_DAY` — safety cap on alerts per day (default 150)

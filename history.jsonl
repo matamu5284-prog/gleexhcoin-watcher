@@ -4511,3 +4511,4 @@
 {"t":"2026-09-11T12:04:42.440Z","price":0.02449,"mc":24496602,"liquidity":369536.27,"volume24h":2269545.25,"change5m":-0.2,"change1h":-5.79,"change24h":26.3,"crossed":null,"signals":[]}
 {"t":"2026-09-11T12:04:57.518Z","price":0.02449,"mc":24496602,"liquidity":369536.27,"volume24h":2269545.25,"change5m":-0.2,"change1h":-5.79,"change24h":26.3,"crossed":null,"signals":[]}
 {"t":"2026-09-11T12:05:12.613Z","price":0.02491,"mc":24910792,"liquidity":370745.5,"volume24h":2273199.71,"change5m":1.48,"change1h":-4.2,"change24h":28.44,"crossed":null,"signals":[]}
+{"t":"2026-09-11T19:24:35.033Z","symbol":"UBIK","price":0.02776,"mc":27763570,"liquidity":537010.92,"volume24h":2179113.83,"change5m":1,"change1h":10.65,"change24h":48.54,"crossed":null,"signals":["momentum_up_all_timeframes"]}

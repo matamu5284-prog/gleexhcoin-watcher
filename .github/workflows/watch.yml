@@ -38,6 +38,9 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
+          SMS_TO: ${{ secrets.SMS_TO }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: node watch.mjs
 
       - name: Safety-net commit (in case the loop's own flush missed anything)
