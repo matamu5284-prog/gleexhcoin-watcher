@@ -1,7 +1,7 @@
 {
-  "lastMc": 21924294,
-  "lastFullCycleAt": "2026-09-11T01:02:28.376Z",
-  "fullCyclesToday": 2,
+  "lastMc": 22061291,
+  "lastFullCycleAt": "2026-09-11T01:12:12.846Z",
+  "fullCyclesToday": 3,
   "fullCyclesDate": "2026-09-11",
   "lastCall": "TAKE PARTIAL PROFIT",
   "levels": {
@@ -55,7 +55,45 @@
           "mc": 21906249
         }
       ]
+    },
+    "broke_above_extTarget": {
+      "signal": "broke_above_extTarget",
+      "entryAt": "2026-09-11T01:12:11.805Z",
+      "entryPrice": 0.02206,
+      "entryMc": 22061291,
+      "entrySnippet": [
+        {
+          "t": "2026-09-11T01:10:54.384Z",
+          "price": 0.02192,
+          "mc": 21924294
+        },
+        {
+          "t": "2026-09-11T01:11:09.494Z",
+          "price": 0.02192,
+          "mc": 21924294
+        },
+        {
+          "t": "2026-09-11T01:11:24.536Z",
+          "price": 0.02192,
+          "mc": 21924294
+        },
+        {
+          "t": "2026-09-11T01:11:41.705Z",
+          "price": 0.02194,
+          "mc": 21946189
+        },
+        {
+          "t": "2026-09-11T01:11:56.738Z",
+          "price": 0.02194,
+          "mc": 21946189
+        },
+        {
+          "t": "2026-09-11T01:12:11.805Z",
+          "price": 0.02206,
+          "mc": 22061291
+        }
+      ]
     }
   },
-  "lastAlertMc": 21906249
+  "lastAlertMc": 22061291
 }
