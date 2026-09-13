@@ -6894,3 +6894,11 @@
 {"t":"2026-09-13T06:01:44.332Z","price":0.03013,"mc":30138447,"liquidity":521138.68,"volume24h":2387578.35,"change5m":1.71,"change1h":2.92,"change24h":-12.22,"crossed":null,"signals":[]}
 {"t":"2026-09-13T06:01:59.354Z","price":0.03013,"mc":30138447,"liquidity":521138.68,"volume24h":2387578.35,"change5m":1.71,"change1h":2.92,"change24h":-12.22,"crossed":null,"signals":[]}
 {"t":"2026-09-13T06:02:14.390Z","price":0.03013,"mc":30138447,"liquidity":521138.68,"volume24h":2387578.35,"change5m":1.71,"change1h":2.92,"change24h":-12.22,"crossed":null,"signals":[]}
+{"t":"2026-09-13T06:02:31.021Z","price":0.03013,"mc":30138447,"liquidity":521138.68,"volume24h":2387578.35,"change5m":1.71,"change1h":2.92,"change24h":-12.22,"crossed":null,"signals":[]}
+{"t":"2026-09-13T06:02:46.056Z","price":0.03013,"mc":30138447,"liquidity":521138.68,"volume24h":2379769.65,"change5m":1.98,"change1h":2.79,"change24h":-10.48,"crossed":null,"signals":[]}
+{"t":"2026-09-13T06:03:01.084Z","price":0.03013,"mc":30138447,"liquidity":521138.68,"volume24h":2379769.65,"change5m":1.98,"change1h":2.79,"change24h":-10.48,"crossed":null,"signals":[]}
+{"t":"2026-09-13T06:03:16.114Z","price":0.03017,"mc":30171914,"liquidity":521247.84,"volume24h":2380337.03,"change5m":2.1,"change1h":2.9,"change24h":-10.38,"crossed":null,"signals":[]}
+{"t":"2026-09-13T06:03:31.137Z","price":0.03017,"mc":30171914,"liquidity":521247.84,"volume24h":2380337.03,"change5m":2.1,"change1h":2.9,"change24h":-10.38,"crossed":null,"signals":[]}
+{"t":"2026-09-13T06:03:46.168Z","price":0.03018,"mc":30185407,"liquidity":517313.66,"volume24h":2380079,"change5m":1.95,"change1h":2.95,"change24h":-9.97,"crossed":null,"signals":[]}
+{"t":"2026-09-13T06:04:01.193Z","price":0.03018,"mc":30185407,"liquidity":517313.66,"volume24h":2380079,"change5m":1.95,"change1h":2.95,"change24h":-9.97,"crossed":null,"signals":[]}
+{"t":"2026-09-13T06:04:16.232Z","price":0.03018,"mc":30185407,"liquidity":517313.66,"volume24h":2380079,"change5m":1.95,"change1h":2.95,"change24h":-9.97,"crossed":null,"signals":[]}
