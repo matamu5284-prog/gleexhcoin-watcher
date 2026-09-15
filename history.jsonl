@@ -9357,3 +9357,11 @@
 {"t":"2026-09-15T08:02:26.333Z","price":0.01848,"mc":18481251,"liquidity":314723.53,"volume24h":2124697.24,"change5m":0.1,"change1h":2.02,"change24h":-21.58,"crossed":null,"signals":[]}
 {"t":"2026-09-15T08:02:41.630Z","price":0.0186,"mc":18600296,"liquidity":315255.09,"volume24h":2126310.09,"change5m":0.76,"change1h":2.46,"change24h":-21.08,"crossed":null,"signals":[]}
 {"t":"2026-09-15T08:02:56.676Z","price":0.0186,"mc":18600296,"liquidity":315255.09,"volume24h":2126310.09,"change5m":0.76,"change1h":2.46,"change24h":-21.08,"crossed":null,"signals":[]}
+{"t":"2026-09-15T08:03:13.929Z","price":0.0186,"mc":18600296,"liquidity":315255.09,"volume24h":2126310.09,"change5m":0.76,"change1h":2.46,"change24h":-21.08,"crossed":null,"signals":[]}
+{"t":"2026-09-15T08:03:28.983Z","price":0.0186,"mc":18600296,"liquidity":315255.09,"volume24h":2126310.09,"change5m":0.76,"change1h":2.46,"change24h":-21.08,"crossed":null,"signals":[]}
+{"t":"2026-09-15T08:03:44.152Z","price":0.0186,"mc":18600296,"liquidity":315255.09,"volume24h":2126304.31,"change5m":0.6,"change1h":2.43,"change24h":-21.12,"crossed":null,"signals":[]}
+{"t":"2026-09-15T08:03:59.227Z","price":0.0186,"mc":18600296,"liquidity":315255.09,"volume24h":2126304.31,"change5m":0.6,"change1h":2.43,"change24h":-21.12,"crossed":null,"signals":[]}
+{"t":"2026-09-15T08:04:14.418Z","price":0.0186,"mc":18600296,"liquidity":315255.09,"volume24h":2126304.31,"change5m":0.6,"change1h":2.43,"change24h":-21.12,"crossed":null,"signals":[]}
+{"t":"2026-09-15T08:04:29.469Z","price":0.0186,"mc":18600296,"liquidity":315255.09,"volume24h":2126304.31,"change5m":0.6,"change1h":2.43,"change24h":-21.12,"crossed":null,"signals":[]}
+{"t":"2026-09-15T08:04:44.650Z","price":0.0186,"mc":18600079,"liquidity":315254.13,"volume24h":2126108.36,"change5m":0.6,"change1h":2.43,"change24h":-21.12,"crossed":null,"signals":[]}
+{"t":"2026-09-15T08:04:59.699Z","price":0.0186,"mc":18600079,"liquidity":315254.13,"volume24h":2126108.36,"change5m":0.6,"change1h":2.43,"change24h":-21.12,"crossed":null,"signals":[]}
