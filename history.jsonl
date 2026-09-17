@@ -12039,3 +12039,11 @@
 {"t":"2026-09-17T17:40:44.071Z","price":0.01948,"mc":19479685,"liquidity":409016.26,"volume24h":1427511.92,"change5m":-1.84,"change1h":4.24,"change24h":2.76,"crossed":null,"signals":[]}
 {"t":"2026-09-17T17:40:59.101Z","price":0.01948,"mc":19479685,"liquidity":409016.26,"volume24h":1427511.92,"change5m":-1.84,"change1h":4.24,"change24h":2.76,"crossed":null,"signals":[]}
 {"t":"2026-09-17T17:41:14.255Z","price":0.01944,"mc":19439690,"liquidity":408809.7,"volume24h":1428359.55,"change5m":-2.04,"change1h":4.03,"change24h":2.55,"crossed":null,"signals":[]}
+{"t":"2026-09-17T17:41:31.176Z","price":0.01944,"mc":19439690,"liquidity":408809.7,"volume24h":1428359.55,"change5m":-2.04,"change1h":4.03,"change24h":2.55,"crossed":null,"signals":[]}
+{"t":"2026-09-17T17:41:46.237Z","price":0.01944,"mc":19439690,"liquidity":408809.7,"volume24h":1428359.55,"change5m":-1.22,"change1h":4.03,"change24h":2.55,"crossed":null,"signals":[]}
+{"t":"2026-09-17T17:42:01.264Z","price":0.01944,"mc":19439690,"liquidity":408809.7,"volume24h":1428359.55,"change5m":-1.22,"change1h":4.03,"change24h":2.55,"crossed":null,"signals":[]}
+{"t":"2026-09-17T17:42:16.355Z","price":0.01943,"mc":19434265,"liquidity":408781.08,"volume24h":1428633.71,"change5m":-1.25,"change1h":4,"change24h":2.52,"crossed":null,"signals":[]}
+{"t":"2026-09-17T17:42:31.394Z","price":0.01943,"mc":19434265,"liquidity":408781.08,"volume24h":1428633.71,"change5m":-1.25,"change1h":4,"change24h":2.52,"crossed":null,"signals":[]}
+{"t":"2026-09-17T17:42:46.482Z","price":0.01943,"mc":19434265,"liquidity":408781.08,"volume24h":1428633.71,"change5m":-1.25,"change1h":4.06,"change24h":2.52,"crossed":null,"signals":[]}
+{"t":"2026-09-17T17:43:01.520Z","price":0.01943,"mc":19434265,"liquidity":408781.08,"volume24h":1428633.71,"change5m":-1.25,"change1h":4.06,"change24h":2.52,"crossed":null,"signals":[]}
+{"t":"2026-09-17T17:43:16.776Z","price":0.01943,"mc":19434265,"liquidity":408781.08,"volume24h":1428549.39,"change5m":-0.52,"change1h":3.73,"change24h":3.35,"crossed":null,"signals":[]}
