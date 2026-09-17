@@ -12218,3 +12218,11 @@
 {"t":"2026-09-17T20:54:00.843Z","price":0.02099,"mc":20990795,"liquidity":406115.61,"volume24h":1363271.43,"change5m":-0.9,"change1h":7.41,"change24h":11.04,"crossed":null,"signals":[]}
 {"t":"2026-09-17T20:54:15.903Z","price":0.02099,"mc":20990795,"liquidity":406115.61,"volume24h":1363271.43,"change5m":-0.9,"change1h":7.41,"change24h":11.04,"crossed":null,"signals":[]}
 {"t":"2026-09-17T20:54:30.988Z","price":0.02099,"mc":20990795,"liquidity":406115.61,"volume24h":1363271.43,"change5m":-0.9,"change1h":7.41,"change24h":11.04,"crossed":null,"signals":[]}
+{"t":"2026-09-17T20:54:47.980Z","price":0.02099,"mc":20990795,"liquidity":406115.61,"volume24h":1363271.43,"change5m":-0.9,"change1h":7.41,"change24h":11.04,"crossed":null,"signals":[]}
+{"t":"2026-09-17T20:55:03.145Z","price":0.02099,"mc":20990795,"liquidity":406115.61,"volume24h":1363271.43,"change5m":-0.9,"change1h":7.41,"change24h":11.04,"crossed":null,"signals":[]}
+{"t":"2026-09-17T20:55:18.211Z","price":0.02099,"mc":20990795,"liquidity":406115.61,"volume24h":1363271.43,"change5m":-0.9,"change1h":7.41,"change24h":11.04,"crossed":null,"signals":[]}
+{"t":"2026-09-17T20:55:33.394Z","price":0.02099,"mc":20990795,"liquidity":406115.61,"volume24h":1363271.43,"change5m":-0.9,"change1h":7.41,"change24h":11.04,"crossed":null,"signals":[]}
+{"t":"2026-09-17T20:55:48.458Z","price":0.02099,"mc":20990795,"liquidity":406115.61,"volume24h":1363271.43,"change5m":-0.9,"change1h":7.41,"change24h":11.04,"crossed":null,"signals":[]}
+{"t":"2026-09-17T20:56:03.617Z","price":0.021,"mc":21003939,"liquidity":406167.28,"volume24h":1362588.39,"change5m":-0.09,"change1h":7.48,"change24h":11.11,"crossed":null,"signals":[]}
+{"t":"2026-09-17T20:56:18.677Z","price":0.021,"mc":21003939,"liquidity":406167.28,"volume24h":1362588.39,"change5m":-0.09,"change1h":7.48,"change24h":11.11,"crossed":null,"signals":[]}
+{"t":"2026-09-17T20:56:33.776Z","price":0.021,"mc":21003939,"liquidity":406167.28,"volume24h":1362588.39,"change5m":0.22,"change1h":7.48,"change24h":11.11,"crossed":null,"signals":["momentum_up_all_timeframes"]}
