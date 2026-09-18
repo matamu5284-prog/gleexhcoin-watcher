@@ -13462,3 +13462,11 @@
 {"t":"2026-09-18T22:04:29.037Z","price":0.02088,"mc":20882975,"liquidity":411058.04,"volume24h":879928.36,"change5m":-6.31,"change1h":-8.03,"change24h":6.93,"crossed":null,"signals":[]}
 {"t":"2026-09-18T22:04:44.250Z","price":0.02114,"mc":21141836,"liquidity":412438.58,"volume24h":885163.06,"change5m":-5.15,"change1h":-6.89,"change24h":8.26,"crossed":null,"signals":[]}
 {"t":"2026-09-18T22:04:59.495Z","price":0.02114,"mc":21141836,"liquidity":412438.58,"volume24h":885163.06,"change5m":-5.15,"change1h":-6.89,"change24h":8.26,"crossed":null,"signals":[]}
+{"t":"2026-09-18T22:05:16.598Z","price":0.0212,"mc":21206955,"liquidity":412775.93,"volume24h":886457.76,"change5m":-4.86,"change1h":-6.6,"change24h":8.59,"crossed":null,"signals":[]}
+{"t":"2026-09-18T22:05:31.634Z","price":0.0212,"mc":21206955,"liquidity":412775.93,"volume24h":886457.76,"change5m":-4.86,"change1h":-6.6,"change24h":8.59,"crossed":null,"signals":[]}
+{"t":"2026-09-18T22:05:46.700Z","price":0.0212,"mc":21206955,"liquidity":412775.93,"volume24h":886454.61,"change5m":-4.86,"change1h":-6.6,"change24h":8.66,"crossed":null,"signals":[]}
+{"t":"2026-09-18T22:06:01.737Z","price":0.0212,"mc":21206955,"liquidity":412775.93,"volume24h":886454.61,"change5m":-4.86,"change1h":-6.6,"change24h":8.66,"crossed":null,"signals":[]}
+{"t":"2026-09-18T22:06:16.806Z","price":0.0211,"mc":21109136,"liquidity":412267.69,"volume24h":888524.66,"change5m":-5.3,"change1h":-7.03,"change24h":8.16,"crossed":null,"signals":[]}
+{"t":"2026-09-18T22:06:31.853Z","price":0.0211,"mc":21109136,"liquidity":412267.69,"volume24h":888524.66,"change5m":-5.3,"change1h":-7.03,"change24h":8.16,"crossed":null,"signals":[]}
+{"t":"2026-09-18T22:06:47.035Z","price":0.02114,"mc":21140677,"liquidity":412432.54,"volume24h":888920.32,"change5m":-5.16,"change1h":-6.61,"change24h":8.29,"crossed":null,"signals":[]}
+{"t":"2026-09-18T22:07:02.120Z","price":0.02114,"mc":21140677,"liquidity":412432.54,"volume24h":888920.32,"change5m":-5.16,"change1h":-6.61,"change24h":8.29,"crossed":null,"signals":[]}
