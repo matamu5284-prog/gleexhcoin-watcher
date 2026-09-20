@@ -15242,3 +15242,11 @@
 {"t":"2026-09-20T01:42:44.549Z","price":0.02071,"mc":20718854,"liquidity":369138.29,"volume24h":753233.4,"change5m":0.1,"change1h":-0.89,"change24h":4.94,"crossed":null,"signals":[]}
 {"t":"2026-09-20T01:42:59.577Z","price":0.02071,"mc":20718854,"liquidity":369138.29,"volume24h":753233.4,"change5m":0.1,"change1h":-0.89,"change24h":4.94,"crossed":null,"signals":[]}
 {"t":"2026-09-20T01:43:14.709Z","price":0.02071,"mc":20718854,"liquidity":369138.29,"volume24h":753233.4,"change5m":0.1,"change1h":-0.89,"change24h":4.94,"crossed":null,"signals":[]}
+{"t":"2026-09-20T01:43:31.764Z","price":0.02071,"mc":20718854,"liquidity":369138.29,"volume24h":753233.4,"change5m":0.1,"change1h":-0.89,"change24h":4.94,"crossed":null,"signals":[]}
+{"t":"2026-09-20T01:43:46.867Z","price":0.02071,"mc":20718854,"liquidity":369138.29,"volume24h":753233.4,"change5m":null,"change1h":-0.89,"change24h":4.94,"crossed":null,"signals":[]}
+{"t":"2026-09-20T01:44:01.896Z","price":0.02071,"mc":20718854,"liquidity":369138.29,"volume24h":753233.4,"change5m":null,"change1h":-0.89,"change24h":4.94,"crossed":null,"signals":[]}
+{"t":"2026-09-20T01:44:17.000Z","price":0.02071,"mc":20716721,"liquidity":369128.13,"volume24h":753272.7,"change5m":-0.01,"change1h":-0.9,"change24h":4.93,"crossed":null,"signals":[]}
+{"t":"2026-09-20T01:44:32.033Z","price":0.02071,"mc":20716721,"liquidity":369128.13,"volume24h":753272.7,"change5m":-0.01,"change1h":-0.9,"change24h":4.93,"crossed":null,"signals":[]}
+{"t":"2026-09-20T01:44:47.137Z","price":0.02071,"mc":20716721,"liquidity":369128.13,"volume24h":753272.7,"change5m":-0.01,"change1h":-0.98,"change24h":4.93,"crossed":null,"signals":[]}
+{"t":"2026-09-20T01:45:02.167Z","price":0.02071,"mc":20716721,"liquidity":369128.13,"volume24h":753272.7,"change5m":-0.01,"change1h":-0.98,"change24h":4.93,"crossed":null,"signals":[]}
+{"t":"2026-09-20T01:45:17.272Z","price":0.0207,"mc":20705990,"liquidity":369076.95,"volume24h":753470.46,"change5m":-0.06,"change1h":-1.03,"change24h":4.87,"crossed":null,"signals":[]}
