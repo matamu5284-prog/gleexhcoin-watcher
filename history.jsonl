@@ -16227,3 +16227,11 @@
 {"t":"2026-09-20T21:46:26.760Z","price":0.01698,"mc":16986472,"liquidity":335569.43,"volume24h":969223.51,"change5m":-0.03,"change1h":0.86,"change24h":-19.41,"crossed":null,"signals":[]}
 {"t":"2026-09-20T21:46:41.805Z","price":0.01698,"mc":16986472,"liquidity":335569.43,"volume24h":969083.97,"change5m":-0.03,"change1h":0.86,"change24h":-19.43,"crossed":null,"signals":[]}
 {"t":"2026-09-20T21:46:56.833Z","price":0.01698,"mc":16986472,"liquidity":335569.43,"volume24h":969083.97,"change5m":-0.03,"change1h":0.86,"change24h":-19.43,"crossed":null,"signals":[]}
+{"t":"2026-09-20T21:47:13.826Z","price":0.01698,"mc":16983476,"liquidity":335545.88,"volume24h":969148.23,"change5m":-0.05,"change1h":0.84,"change24h":-19.45,"crossed":null,"signals":[]}
+{"t":"2026-09-20T21:47:28.850Z","price":0.01698,"mc":16983476,"liquidity":335545.88,"volume24h":969148.23,"change5m":-0.05,"change1h":0.84,"change24h":-19.45,"crossed":null,"signals":[]}
+{"t":"2026-09-20T21:47:43.929Z","price":0.01698,"mc":16983476,"liquidity":335654.03,"volume24h":969110.99,"change5m":-0.05,"change1h":1.35,"change24h":-19.33,"crossed":null,"signals":[]}
+{"t":"2026-09-20T21:47:58.974Z","price":0.01698,"mc":16983476,"liquidity":335654.03,"volume24h":969110.99,"change5m":-0.05,"change1h":1.35,"change24h":-19.33,"crossed":null,"signals":[]}
+{"t":"2026-09-20T21:48:14.066Z","price":0.01698,"mc":16981861,"liquidity":335641.33,"volume24h":969145.61,"change5m":-0.05,"change1h":1.34,"change24h":-19.34,"crossed":null,"signals":[]}
+{"t":"2026-09-20T21:48:29.093Z","price":0.01698,"mc":16981861,"liquidity":335641.33,"volume24h":969145.61,"change5m":-0.05,"change1h":1.34,"change24h":-19.34,"crossed":null,"signals":[]}
+{"t":"2026-09-20T21:48:44.167Z","price":0.01696,"mc":16959956,"liquidity":335468.64,"volume24h":969044.7,"change5m":-0.16,"change1h":1.2,"change24h":-19.42,"crossed":null,"signals":[]}
+{"t":"2026-09-20T21:48:59.312Z","price":0.01696,"mc":16959956,"liquidity":335468.64,"volume24h":969044.7,"change5m":-0.16,"change1h":1.2,"change24h":-19.42,"crossed":null,"signals":[]}
