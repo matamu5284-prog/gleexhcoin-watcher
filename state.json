@@ -1,7 +1,7 @@
 {
-  "lastMc": 21914760,
-  "lastFullCycleAt": "2026-09-21T23:40:22.102Z",
-  "fullCyclesToday": 32,
+  "lastMc": 22320135,
+  "lastFullCycleAt": "2026-09-21T23:44:28.058Z",
+  "fullCyclesToday": 33,
   "fullCyclesDate": "2026-09-21",
   "lastCall": "TAKE PARTIAL PROFIT",
   "levels": {
@@ -18,44 +18,44 @@
     "avgEntryMc": 5900000
   },
   "openPaperTrades": {
-    "broke_below_extTarget": {
-      "signal": "broke_below_extTarget",
-      "entryAt": "2026-09-21T23:39:49.183Z",
-      "entryPrice": 0.02106,
-      "entryMc": 21060819,
+    "broke_above_extTarget": {
+      "signal": "broke_above_extTarget",
+      "entryAt": "2026-09-21T23:44:27.761Z",
+      "entryPrice": 0.02238,
+      "entryMc": 22381735,
       "entrySnippet": [
         {
-          "t": "2026-09-21T23:38:33.149Z",
-          "price": 0.02373,
-          "mc": 23730306
+          "t": "2026-09-21T23:43:10.049Z",
+          "price": 0.02176,
+          "mc": 21763190
         },
         {
-          "t": "2026-09-21T23:38:48.245Z",
-          "price": 0.02306,
-          "mc": 23068214
+          "t": "2026-09-21T23:43:25.153Z",
+          "price": 0.02184,
+          "mc": 21842584
         },
         {
-          "t": "2026-09-21T23:39:03.588Z",
-          "price": 0.02306,
-          "mc": 23068214
+          "t": "2026-09-21T23:43:40.184Z",
+          "price": 0.02184,
+          "mc": 21842584
         },
         {
-          "t": "2026-09-21T23:39:18.862Z",
-          "price": 0.02298,
-          "mc": 22986033
+          "t": "2026-09-21T23:43:55.298Z",
+          "price": 0.02191,
+          "mc": 21914760
         },
         {
-          "t": "2026-09-21T23:39:34.129Z",
-          "price": 0.02298,
-          "mc": 22986033
+          "t": "2026-09-21T23:44:10.361Z",
+          "price": 0.02191,
+          "mc": 21914760
         },
         {
-          "t": "2026-09-21T23:39:49.183Z",
-          "price": 0.02106,
-          "mc": 21060819
+          "t": "2026-09-21T23:44:27.761Z",
+          "price": 0.02238,
+          "mc": 22381735
         }
       ]
     }
   },
-  "lastAlertMc": 21200599
+  "lastAlertMc": 22381735
 }
