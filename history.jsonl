@@ -20029,3 +20029,10 @@
 {"t":"2026-09-24T05:29:34.246Z","price":0.02184,"mc":21846586,"liquidity":350376.14,"volume24h":504632.23,"change5m":-0.35,"change1h":-0.12,"change24h":3.19,"crossed":null,"signals":["approaching_extTarget"]}
 {"t":"2026-09-24T05:29:49.352Z","price":0.02187,"mc":21872477,"liquidity":349903.31,"volume24h":504824.79,"change5m":-0.24,"change1h":null,"change24h":3.38,"crossed":null,"signals":["approaching_extTarget"]}
 {"t":"2026-09-24T05:30:04.388Z","price":0.02187,"mc":21872477,"liquidity":349903.31,"volume24h":504824.79,"change5m":-0.24,"change1h":null,"change24h":3.38,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-09-24T05:30:21.517Z","price":0.02187,"mc":21872477,"liquidity":349903.31,"volume24h":504824.79,"change5m":-0.24,"change1h":null,"change24h":3.38,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-09-24T05:30:36.564Z","price":0.02187,"mc":21872477,"liquidity":349903.31,"volume24h":504824.79,"change5m":-0.24,"change1h":null,"change24h":3.38,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-09-24T05:30:51.687Z","price":0.02186,"mc":21862385,"liquidity":349875.67,"volume24h":504935.77,"change5m":-0.28,"change1h":-0.17,"change24h":3.34,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-09-24T05:31:06.732Z","price":0.02186,"mc":21862385,"liquidity":349875.67,"volume24h":504935.77,"change5m":-0.28,"change1h":-0.17,"change24h":3.34,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-09-24T05:31:21.994Z","price":0.02186,"mc":21861553,"liquidity":349873.39,"volume24h":504723.9,"change5m":-0.29,"change1h":-0.17,"change24h":2.5,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-09-24T05:31:37.041Z","price":0.02186,"mc":21861553,"liquidity":349873.39,"volume24h":504723.9,"change5m":-0.29,"change1h":-0.17,"change24h":2.5,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-09-24T05:31:52.184Z","price":0.02186,"mc":21861553,"liquidity":349873.39,"volume24h":504723.9,"change5m":-0.29,"change1h":-0.17,"change24h":2.5,"crossed":null,"signals":["approaching_extTarget"]}
