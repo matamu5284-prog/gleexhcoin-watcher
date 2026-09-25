@@ -21463,3 +21463,11 @@
 {"t":"2026-09-25T14:13:40.979Z","price":0.01922,"mc":19225534,"liquidity":321456.53,"volume24h":249429.25,"change5m":0.06,"change1h":-2.37,"change24h":-4.61,"crossed":null,"signals":[]}
 {"t":"2026-09-25T14:13:56.007Z","price":0.01922,"mc":19225534,"liquidity":321456.53,"volume24h":249429.25,"change5m":0.06,"change1h":-2.37,"change24h":-4.61,"crossed":null,"signals":[]}
 {"t":"2026-09-25T14:14:11.153Z","price":0.01922,"mc":19225534,"liquidity":321456.53,"volume24h":249429.25,"change5m":0.06,"change1h":-2.37,"change24h":-4.61,"crossed":null,"signals":[]}
+{"t":"2026-09-25T14:14:28.601Z","price":0.01922,"mc":19225534,"liquidity":321456.53,"volume24h":249429.25,"change5m":0.06,"change1h":-2.37,"change24h":-4.61,"crossed":null,"signals":[]}
+{"t":"2026-09-25T14:14:43.701Z","price":0.01922,"mc":19225534,"liquidity":321456.53,"volume24h":249429.25,"change5m":0.06,"change1h":-2.37,"change24h":-4.61,"crossed":null,"signals":[]}
+{"t":"2026-09-25T14:14:58.731Z","price":0.01922,"mc":19225534,"liquidity":321456.53,"volume24h":249429.25,"change5m":0.06,"change1h":-2.37,"change24h":-4.61,"crossed":null,"signals":[]}
+{"t":"2026-09-25T14:15:13.776Z","price":0.01922,"mc":19225534,"liquidity":321456.53,"volume24h":249429.25,"change5m":0.06,"change1h":-2.37,"change24h":-4.61,"crossed":null,"signals":[]}
+{"t":"2026-09-25T14:15:28.815Z","price":0.01922,"mc":19225534,"liquidity":321456.53,"volume24h":249429.25,"change5m":0.06,"change1h":-2.37,"change24h":-4.61,"crossed":null,"signals":[]}
+{"t":"2026-09-25T14:15:43.909Z","price":0.01919,"mc":19198231,"liquidity":321332.17,"volume24h":249791.14,"change5m":-0.08,"change1h":-2.51,"change24h":-4.28,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-25T14:15:58.943Z","price":0.01919,"mc":19198231,"liquidity":321332.17,"volume24h":249791.14,"change5m":-0.08,"change1h":-2.51,"change24h":-4.28,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-09-25T14:16:14.100Z","price":0.01919,"mc":19198231,"liquidity":321332.17,"volume24h":249791.14,"change5m":-0.08,"change1h":-2.51,"change24h":-4.28,"crossed":null,"signals":["momentum_down_all_timeframes"]}
