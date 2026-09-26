@@ -22763,3 +22763,11 @@
 {"t":"2026-09-26T17:41:47.856Z","price":0.02,"mc":20001898,"liquidity":316844.64,"volume24h":473478.59,"change5m":null,"change1h":-0.2,"change24h":0.37,"crossed":null,"signals":[]}
 {"t":"2026-09-26T17:42:02.912Z","price":0.02,"mc":20001898,"liquidity":316844.64,"volume24h":473478.59,"change5m":null,"change1h":-0.2,"change24h":0.37,"crossed":null,"signals":[]}
 {"t":"2026-09-26T17:42:18.087Z","price":0.02,"mc":20001898,"liquidity":316844.64,"volume24h":473478.59,"change5m":null,"change1h":-0.2,"change24h":0.37,"crossed":null,"signals":[]}
+{"t":"2026-09-26T17:42:35.487Z","price":0.02,"mc":20001898,"liquidity":316844.64,"volume24h":473478.59,"change5m":null,"change1h":-0.2,"change24h":0.37,"crossed":null,"signals":[]}
+{"t":"2026-09-26T17:42:50.644Z","price":0.02,"mc":20001898,"liquidity":316844.64,"volume24h":471726.75,"change5m":null,"change1h":-0.2,"change24h":0.2,"crossed":null,"signals":[]}
+{"t":"2026-09-26T17:43:05.704Z","price":0.02,"mc":20001898,"liquidity":316844.64,"volume24h":471726.75,"change5m":null,"change1h":-0.2,"change24h":0.2,"crossed":null,"signals":[]}
+{"t":"2026-09-26T17:43:20.872Z","price":0.02001,"mc":20013819,"liquidity":316892.2,"volume24h":471866.54,"change5m":0.06,"change1h":-0.14,"change24h":0.26,"crossed":null,"signals":[]}
+{"t":"2026-09-26T17:43:35.934Z","price":0.02001,"mc":20013819,"liquidity":316892.2,"volume24h":471866.54,"change5m":0.06,"change1h":-0.14,"change24h":0.26,"crossed":null,"signals":[]}
+{"t":"2026-09-26T17:43:51.099Z","price":0.02001,"mc":20013819,"liquidity":316892.2,"volume24h":471866.54,"change5m":0.06,"change1h":-0.14,"change24h":0.26,"crossed":null,"signals":[]}
+{"t":"2026-09-26T17:44:06.154Z","price":0.02001,"mc":20013819,"liquidity":316892.2,"volume24h":471866.54,"change5m":0.06,"change1h":-0.14,"change24h":0.26,"crossed":null,"signals":[]}
+{"t":"2026-09-26T17:44:21.378Z","price":0.02001,"mc":20013819,"liquidity":316892.2,"volume24h":471866.54,"change5m":0.06,"change1h":0.03,"change24h":0.26,"crossed":null,"signals":["momentum_up_all_timeframes"]}
