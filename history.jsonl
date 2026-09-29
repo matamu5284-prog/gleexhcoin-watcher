@@ -25354,3 +25354,11 @@
 {"t":"2026-09-29T02:28:14.413Z","price":0.02305,"mc":23049594,"liquidity":299701.53,"volume24h":505819.31,"change5m":0.45,"change1h":2.1,"change24h":-0.73,"crossed":null,"signals":[]}
 {"t":"2026-09-29T02:28:29.455Z","price":0.02305,"mc":23049594,"liquidity":299701.53,"volume24h":505819.31,"change5m":0.45,"change1h":2.1,"change24h":-0.73,"crossed":null,"signals":[]}
 {"t":"2026-09-29T02:28:44.588Z","price":0.02305,"mc":23049594,"liquidity":299701.53,"volume24h":505819.31,"change5m":0.45,"change1h":2.1,"change24h":-0.73,"crossed":null,"signals":[]}
+{"t":"2026-09-29T02:29:02.002Z","price":0.02305,"mc":23049594,"liquidity":299701.53,"volume24h":505819.31,"change5m":0.45,"change1h":2.1,"change24h":-0.73,"crossed":null,"signals":[]}
+{"t":"2026-09-29T02:29:17.150Z","price":0.02305,"mc":23049594,"liquidity":299701.53,"volume24h":505819.31,"change5m":0.45,"change1h":2.1,"change24h":-0.73,"crossed":null,"signals":[]}
+{"t":"2026-09-29T02:29:32.209Z","price":0.02305,"mc":23049594,"liquidity":299701.53,"volume24h":505819.31,"change5m":0.45,"change1h":2.1,"change24h":-0.73,"crossed":null,"signals":[]}
+{"t":"2026-09-29T02:29:47.342Z","price":0.02306,"mc":23062275,"liquidity":299723.7,"volume24h":505964.67,"change5m":0.51,"change1h":2.16,"change24h":-0.67,"crossed":null,"signals":[]}
+{"t":"2026-09-29T02:30:02.398Z","price":0.02306,"mc":23062275,"liquidity":299723.7,"volume24h":505964.67,"change5m":0.51,"change1h":2.16,"change24h":-0.67,"crossed":null,"signals":[]}
+{"t":"2026-09-29T02:30:17.533Z","price":0.0231,"mc":23099911,"liquidity":299789.38,"volume24h":506395.86,"change5m":0.67,"change1h":2.32,"change24h":-0.51,"crossed":null,"signals":[]}
+{"t":"2026-09-29T02:30:32.661Z","price":0.0231,"mc":23099911,"liquidity":299789.38,"volume24h":506395.86,"change5m":0.67,"change1h":2.32,"change24h":-0.51,"crossed":null,"signals":[]}
+{"t":"2026-09-29T02:30:47.745Z","price":0.02311,"mc":23113999,"liquidity":299813.3,"volume24h":506555.84,"change5m":0.73,"change1h":2.39,"change24h":-0.45,"crossed":null,"signals":[]}
