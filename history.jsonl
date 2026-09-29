@@ -25608,3 +25608,11 @@
 {"t":"2026-09-29T09:10:13.264Z","price":0.02252,"mc":22521627,"liquidity":299817.59,"volume24h":510239.96,"change5m":-0.04,"change1h":-0.94,"change24h":1.7,"crossed":null,"signals":[]}
 {"t":"2026-09-29T09:10:28.311Z","price":0.02252,"mc":22521627,"liquidity":299817.59,"volume24h":510239.96,"change5m":-0.04,"change1h":-0.94,"change24h":1.7,"crossed":null,"signals":[]}
 {"t":"2026-09-29T09:10:43.470Z","price":0.02252,"mc":22521627,"liquidity":299817.59,"volume24h":510239.96,"change5m":null,"change1h":0.04,"change24h":1.7,"crossed":null,"signals":[]}
+{"t":"2026-09-29T09:11:00.875Z","price":0.02252,"mc":22521627,"liquidity":299817.59,"volume24h":510239.96,"change5m":null,"change1h":0.04,"change24h":1.7,"crossed":null,"signals":[]}
+{"t":"2026-09-29T09:11:16.026Z","price":0.02252,"mc":22521627,"liquidity":299817.59,"volume24h":510239.96,"change5m":null,"change1h":0.04,"change24h":1.7,"crossed":null,"signals":[]}
+{"t":"2026-09-29T09:11:31.132Z","price":0.02252,"mc":22521627,"liquidity":299817.59,"volume24h":510239.96,"change5m":null,"change1h":0.04,"change24h":1.7,"crossed":null,"signals":[]}
+{"t":"2026-09-29T09:11:46.375Z","price":0.02252,"mc":22521627,"liquidity":299817.59,"volume24h":510119.86,"change5m":null,"change1h":0.04,"change24h":1.61,"crossed":null,"signals":[]}
+{"t":"2026-09-29T09:12:01.417Z","price":0.02252,"mc":22521627,"liquidity":299817.59,"volume24h":510119.86,"change5m":null,"change1h":0.04,"change24h":1.61,"crossed":null,"signals":[]}
+{"t":"2026-09-29T09:12:16.574Z","price":0.02252,"mc":22521531,"liquidity":299841.29,"volume24h":510121.02,"change5m":null,"change1h":0.04,"change24h":1.61,"crossed":null,"signals":[]}
+{"t":"2026-09-29T09:12:31.622Z","price":0.02252,"mc":22521531,"liquidity":299841.29,"volume24h":510121.02,"change5m":null,"change1h":0.04,"change24h":1.61,"crossed":null,"signals":[]}
+{"t":"2026-09-29T09:12:46.787Z","price":0.02252,"mc":22521531,"liquidity":299841.29,"volume24h":510121.02,"change5m":null,"change1h":0.04,"change24h":1.61,"crossed":null,"signals":[]}
