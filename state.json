@@ -1,5 +1,5 @@
 {
-  "lastMc": 23584967,
+  "lastMc": 23601107,
   "lastFullCycleAt": "2026-09-30T00:34:22.052Z",
   "fullCyclesToday": 4,
   "fullCyclesDate": "2026-09-30",
@@ -17,20 +17,6 @@
     "invested": 213.11,
     "avgEntryMc": 5900000
   },
-  "openPaperTrades": {
-    "broke_above_extTarget": {
-      "signal": "broke_above_extTarget",
-      "entryAt": "2026-09-30T00:20:19.056Z",
-      "entryPrice": 0.02246,
-      "entryMc": 22468936,
-      "entrySnippet": [
-        {
-          "t": "2026-09-30T00:20:19.055Z",
-          "price": 0.02246,
-          "mc": 22468936
-        }
-      ]
-    }
-  },
+  "openPaperTrades": {},
   "lastAlertMc": 23114242
 }
