@@ -27241,3 +27241,11 @@
 {"t":"2026-10-01T06:07:25.641Z","price":0.0245,"mc":24501033,"liquidity":278910.38,"volume24h":324266.31,"change5m":-0.98,"change1h":5.1,"change24h":-1.83,"crossed":null,"signals":[]}
 {"t":"2026-10-01T06:07:40.814Z","price":0.0245,"mc":24501033,"liquidity":278910.38,"volume24h":324056.41,"change5m":-0.98,"change1h":5.07,"change24h":-1.88,"crossed":null,"signals":[]}
 {"t":"2026-10-01T06:07:55.888Z","price":0.0245,"mc":24501033,"liquidity":278910.38,"volume24h":324056.41,"change5m":-0.98,"change1h":5.07,"change24h":-1.88,"crossed":null,"signals":[]}
+{"t":"2026-10-01T06:08:13.256Z","price":0.0245,"mc":24501033,"liquidity":278910.38,"volume24h":324056.41,"change5m":-0.98,"change1h":5.07,"change24h":-1.88,"crossed":null,"signals":[]}
+{"t":"2026-10-01T06:08:28.335Z","price":0.0245,"mc":24501033,"liquidity":278910.38,"volume24h":324056.41,"change5m":-0.98,"change1h":5.07,"change24h":-1.88,"crossed":null,"signals":[]}
+{"t":"2026-10-01T06:08:43.460Z","price":0.0245,"mc":24501033,"liquidity":278910.38,"volume24h":324056.41,"change5m":0.17,"change1h":5.07,"change24h":-1.88,"crossed":null,"signals":[]}
+{"t":"2026-10-01T06:08:58.537Z","price":0.0245,"mc":24501033,"liquidity":278910.38,"volume24h":324056.41,"change5m":0.17,"change1h":5.07,"change24h":-1.88,"crossed":null,"signals":[]}
+{"t":"2026-10-01T06:09:13.954Z","price":0.0245,"mc":24501016,"liquidity":278919.96,"volume24h":324056.52,"change5m":0.17,"change1h":5.07,"change24h":-1.88,"crossed":null,"signals":[]}
+{"t":"2026-10-01T06:09:29.032Z","price":0.0245,"mc":24501016,"liquidity":278919.96,"volume24h":324056.52,"change5m":0.17,"change1h":5.07,"change24h":-1.88,"crossed":null,"signals":[]}
+{"t":"2026-10-01T06:09:44.222Z","price":0.0246,"mc":24606819,"liquidity":279021.77,"volume24h":326862.44,"change5m":0.43,"change1h":5.53,"change24h":-1.45,"crossed":null,"signals":[]}
+{"t":"2026-10-01T06:09:59.303Z","price":0.0246,"mc":24606819,"liquidity":279021.77,"volume24h":326862.44,"change5m":0.43,"change1h":5.53,"change24h":-1.45,"crossed":null,"signals":[]}
