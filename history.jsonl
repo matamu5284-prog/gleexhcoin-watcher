@@ -28183,3 +28183,11 @@
 {"t":"2026-10-02T03:00:17.358Z","price":0.02393,"mc":23931064,"liquidity":220390.47,"volume24h":265378.74,"change5m":-0.02,"change1h":0.24,"change24h":8.27,"crossed":null,"signals":[]}
 {"t":"2026-10-02T03:00:32.385Z","price":0.02393,"mc":23931064,"liquidity":220390.47,"volume24h":265378.74,"change5m":-0.02,"change1h":0.24,"change24h":8.27,"crossed":null,"signals":[]}
 {"t":"2026-10-02T03:00:47.485Z","price":0.02393,"mc":23935635,"liquidity":220396.47,"volume24h":265265.05,"change5m":null,"change1h":0.26,"change24h":8.3,"crossed":null,"signals":[]}
+{"t":"2026-10-02T03:01:04.630Z","price":0.02393,"mc":23935635,"liquidity":220396.47,"volume24h":265265.05,"change5m":null,"change1h":0.26,"change24h":8.3,"crossed":null,"signals":[]}
+{"t":"2026-10-02T03:01:19.685Z","price":0.02393,"mc":23935635,"liquidity":220396.47,"volume24h":265265.05,"change5m":null,"change1h":0.26,"change24h":8.3,"crossed":null,"signals":[]}
+{"t":"2026-10-02T03:01:34.726Z","price":0.02393,"mc":23935635,"liquidity":220396.47,"volume24h":265265.05,"change5m":null,"change1h":0.26,"change24h":8.3,"crossed":null,"signals":[]}
+{"t":"2026-10-02T03:01:49.824Z","price":0.02393,"mc":23935635,"liquidity":220396.47,"volume24h":265265.05,"change5m":null,"change1h":0.26,"change24h":8.3,"crossed":null,"signals":[]}
+{"t":"2026-10-02T03:02:04.851Z","price":0.02393,"mc":23935635,"liquidity":220396.47,"volume24h":265265.05,"change5m":null,"change1h":0.26,"change24h":8.3,"crossed":null,"signals":[]}
+{"t":"2026-10-02T03:02:19.886Z","price":0.02393,"mc":23935635,"liquidity":220396.47,"volume24h":265265.05,"change5m":null,"change1h":0.26,"change24h":8.3,"crossed":null,"signals":[]}
+{"t":"2026-10-02T03:02:34.917Z","price":0.02393,"mc":23935635,"liquidity":220396.47,"volume24h":265265.05,"change5m":null,"change1h":0.26,"change24h":8.3,"crossed":null,"signals":[]}
+{"t":"2026-10-02T03:02:50.092Z","price":0.02409,"mc":24093428,"liquidity":220599.32,"volume24h":266512.37,"change5m":0.61,"change1h":0.88,"change24h":7.96,"crossed":null,"signals":["momentum_up_all_timeframes"]}
