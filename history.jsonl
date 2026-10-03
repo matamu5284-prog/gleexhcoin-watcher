@@ -29735,3 +29735,11 @@
 {"t":"2026-10-03T21:11:51.265Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389646.15,"change5m":0.17,"change1h":0.61,"change24h":-17,"crossed":null,"signals":[]}
 {"t":"2026-10-03T21:12:06.298Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389646.15,"change5m":0.17,"change1h":0.61,"change24h":-17,"crossed":null,"signals":[]}
 {"t":"2026-10-03T21:12:21.329Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389646.15,"change5m":0.17,"change1h":0.61,"change24h":-17,"crossed":null,"signals":[]}
+{"t":"2026-10-03T21:12:38.428Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389646.15,"change5m":0.17,"change1h":0.61,"change24h":-17,"crossed":null,"signals":[]}
+{"t":"2026-10-03T21:12:53.462Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389646.15,"change5m":0.17,"change1h":0.61,"change24h":-17,"crossed":null,"signals":[]}
+{"t":"2026-10-03T21:13:08.489Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389646.15,"change5m":0.17,"change1h":0.61,"change24h":-17,"crossed":null,"signals":[]}
+{"t":"2026-10-03T21:13:23.640Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389646.15,"change5m":0.17,"change1h":0.61,"change24h":-17,"crossed":null,"signals":[]}
+{"t":"2026-10-03T21:13:38.666Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389646.15,"change5m":null,"change1h":0.61,"change24h":-17,"crossed":null,"signals":[]}
+{"t":"2026-10-03T21:13:53.695Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389646.15,"change5m":null,"change1h":0.61,"change24h":-17,"crossed":null,"signals":[]}
+{"t":"2026-10-03T21:14:08.716Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389300.01,"change5m":null,"change1h":0.61,"change24h":-17.03,"crossed":null,"signals":[]}
+{"t":"2026-10-03T21:14:23.745Z","price":0.01878,"mc":18781017,"liquidity":236505.64,"volume24h":389300.01,"change5m":null,"change1h":0.61,"change24h":-17.03,"crossed":null,"signals":[]}
