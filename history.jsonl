@@ -30217,3 +30217,11 @@
 {"t":"2026-10-04T07:02:12.349Z","price":0.01948,"mc":19479588,"liquidity":218026.33,"volume24h":412360.93,"change5m":null,"change1h":3.04,"change24h":-4.21,"crossed":null,"signals":[]}
 {"t":"2026-10-04T07:02:27.404Z","price":0.01948,"mc":19479588,"liquidity":218026.33,"volume24h":412360.93,"change5m":null,"change1h":3.04,"change24h":-4.21,"crossed":null,"signals":[]}
 {"t":"2026-10-04T07:02:42.546Z","price":0.01947,"mc":19477576,"liquidity":218018.44,"volume24h":412385.79,"change5m":-0.01,"change1h":3.03,"change24h":-4.22,"crossed":null,"signals":[]}
+{"t":"2026-10-04T07:02:59.821Z","price":0.01947,"mc":19477576,"liquidity":218018.44,"volume24h":412385.79,"change5m":-0.01,"change1h":3.03,"change24h":-4.22,"crossed":null,"signals":[]}
+{"t":"2026-10-04T07:03:14.950Z","price":0.01945,"mc":19452580,"liquidity":217917.6,"volume24h":412694.87,"change5m":-0.14,"change1h":2.9,"change24h":-4.35,"crossed":null,"signals":[]}
+{"t":"2026-10-04T07:03:30.054Z","price":0.01945,"mc":19452580,"liquidity":217917.6,"volume24h":412694.87,"change5m":-0.14,"change1h":2.9,"change24h":-4.35,"crossed":null,"signals":[]}
+{"t":"2026-10-04T07:03:45.136Z","price":0.01945,"mc":19452580,"liquidity":217917.6,"volume24h":412665.12,"change5m":-0.14,"change1h":2.9,"change24h":-4.27,"crossed":null,"signals":[]}
+{"t":"2026-10-04T07:04:00.178Z","price":0.01945,"mc":19452580,"liquidity":217917.6,"volume24h":412665.12,"change5m":-0.14,"change1h":2.9,"change24h":-4.27,"crossed":null,"signals":[]}
+{"t":"2026-10-04T07:04:15.263Z","price":0.01945,"mc":19452580,"liquidity":217917.6,"volume24h":412665.12,"change5m":-0.14,"change1h":2.9,"change24h":-4.27,"crossed":null,"signals":[]}
+{"t":"2026-10-04T07:04:30.322Z","price":0.01945,"mc":19452580,"liquidity":217917.6,"volume24h":412665.12,"change5m":-0.14,"change1h":2.9,"change24h":-4.27,"crossed":null,"signals":[]}
+{"t":"2026-10-04T07:04:45.465Z","price":0.01945,"mc":19452580,"liquidity":217917.6,"volume24h":412469.79,"change5m":-0.14,"change1h":2.9,"change24h":-4.73,"crossed":null,"signals":[]}
