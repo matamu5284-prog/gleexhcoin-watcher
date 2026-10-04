@@ -30784,3 +30784,11 @@
 {"t":"2026-10-04T18:56:32.723Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424717.32,"change5m":null,"change1h":-1.12,"change24h":8.85,"crossed":null,"signals":[]}
 {"t":"2026-10-04T18:56:47.769Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424717.32,"change5m":null,"change1h":-1.12,"change24h":8.85,"crossed":null,"signals":[]}
 {"t":"2026-10-04T18:57:02.903Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424717.32,"change5m":null,"change1h":-1.12,"change24h":8.85,"crossed":null,"signals":[]}
+{"t":"2026-10-04T18:57:20.268Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424717.32,"change5m":null,"change1h":-1.12,"change24h":8.85,"crossed":null,"signals":[]}
+{"t":"2026-10-04T18:57:35.396Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424717.32,"change5m":null,"change1h":-0.98,"change24h":8.85,"crossed":null,"signals":[]}
+{"t":"2026-10-04T18:57:50.444Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424717.32,"change5m":null,"change1h":-0.98,"change24h":8.85,"crossed":null,"signals":[]}
+{"t":"2026-10-04T18:58:05.587Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424717.32,"change5m":null,"change1h":-0.98,"change24h":8.85,"crossed":null,"signals":[]}
+{"t":"2026-10-04T18:58:20.634Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424717.32,"change5m":null,"change1h":-0.98,"change24h":8.85,"crossed":null,"signals":[]}
+{"t":"2026-10-04T18:58:35.768Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424704.42,"change5m":null,"change1h":-0.97,"change24h":8.81,"crossed":null,"signals":[]}
+{"t":"2026-10-04T18:58:50.817Z","price":0.02018,"mc":20185065,"liquidity":233631.15,"volume24h":424704.42,"change5m":null,"change1h":-0.97,"change24h":8.81,"crossed":null,"signals":[]}
+{"t":"2026-10-04T18:59:05.995Z","price":0.02042,"mc":20428937,"liquidity":234479.11,"volume24h":427505.65,"change5m":1.21,"change1h":0.23,"change24h":10.13,"crossed":null,"signals":["momentum_up_all_timeframes"]}
