@@ -30576,3 +30576,10 @@
 {"t":"2026-10-04T14:01:34.654Z","price":0.02198,"mc":21985319,"liquidity":236754.84,"volume24h":483402.11,"change5m":-0.9,"change1h":7.48,"change24h":5.94,"crossed":null,"signals":["approaching_extTarget"]}
 {"t":"2026-10-04T14:01:49.716Z","price":0.02198,"mc":21985319,"liquidity":236754.84,"volume24h":483402.11,"change5m":-0.9,"change1h":7.52,"change24h":5.94,"crossed":null,"signals":["approaching_extTarget"]}
 {"t":"2026-10-04T14:02:04.767Z","price":0.02198,"mc":21985319,"liquidity":236754.84,"volume24h":483402.11,"change5m":-0.9,"change1h":7.52,"change24h":5.94,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-10-04T14:02:21.819Z","price":0.02196,"mc":21962665,"liquidity":236695.02,"volume24h":483599.75,"change5m":-0.1,"change1h":7.41,"change24h":5.83,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-10-04T14:02:36.877Z","price":0.02196,"mc":21962665,"liquidity":236695.02,"volume24h":483599.75,"change5m":-0.1,"change1h":7.41,"change24h":5.83,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-10-04T14:02:51.933Z","price":0.02196,"mc":21962665,"liquidity":236694.92,"volume24h":483599.75,"change5m":-0.1,"change1h":7.41,"change24h":5.83,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-10-04T14:03:07.003Z","price":0.02196,"mc":21962665,"liquidity":236694.92,"volume24h":483599.75,"change5m":-0.1,"change1h":7.41,"change24h":5.83,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-10-04T14:03:22.065Z","price":0.02196,"mc":21962665,"liquidity":236694.92,"volume24h":483599.75,"change5m":-0.1,"change1h":7.41,"change24h":5.83,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-10-04T14:03:37.135Z","price":0.02196,"mc":21962665,"liquidity":236694.92,"volume24h":483599.75,"change5m":-0.1,"change1h":7.41,"change24h":5.83,"crossed":null,"signals":["approaching_extTarget"]}
+{"t":"2026-10-04T14:03:52.195Z","price":0.02196,"mc":21962665,"liquidity":236694.92,"volume24h":483599.75,"change5m":-0.1,"change1h":7.41,"change24h":5.83,"crossed":null,"signals":["approaching_extTarget"]}
