@@ -1,7 +1,7 @@
 {
-  "lastMc": 21962665,
-  "lastFullCycleAt": "2026-10-04T13:58:46.794Z",
-  "fullCyclesToday": 11,
+  "lastMc": 20352528,
+  "lastFullCycleAt": "2026-10-04T18:05:49.753Z",
+  "fullCyclesToday": 12,
   "fullCyclesDate": "2026-10-04",
   "lastCall": "TAKE PARTIAL PROFIT",
   "levels": {
@@ -17,83 +17,6 @@
     "invested": 213.11,
     "avgEntryMc": 5900000
   },
-  "openPaperTrades": {
-    "broke_above_extTarget": {
-      "signal": "broke_above_extTarget",
-      "entryAt": "2026-10-04T13:22:57.696Z",
-      "entryPrice": 0.02207,
-      "entryMc": 22074189,
-      "entrySnippet": [
-        {
-          "t": "2026-10-04T13:21:42.408Z",
-          "price": 0.02154,
-          "mc": 21543431
-        },
-        {
-          "t": "2026-10-04T13:21:57.475Z",
-          "price": 0.02154,
-          "mc": 21543386
-        },
-        {
-          "t": "2026-10-04T13:22:12.517Z",
-          "price": 0.02154,
-          "mc": 21543386
-        },
-        {
-          "t": "2026-10-04T13:22:27.582Z",
-          "price": 0.02154,
-          "mc": 21543369
-        },
-        {
-          "t": "2026-10-04T13:22:42.627Z",
-          "price": 0.02154,
-          "mc": 21543369
-        },
-        {
-          "t": "2026-10-04T13:22:57.695Z",
-          "price": 0.02207,
-          "mc": 22074189
-        }
-      ]
-    },
-    "broke_below_extTarget": {
-      "signal": "broke_below_extTarget",
-      "entryAt": "2026-10-04T13:58:46.416Z",
-      "entryPrice": 0.02198,
-      "entryMc": 21985319,
-      "entrySnippet": [
-        {
-          "t": "2026-10-04T13:57:29.017Z",
-          "price": 0.02218,
-          "mc": 22184256
-        },
-        {
-          "t": "2026-10-04T13:57:44.083Z",
-          "price": 0.02218,
-          "mc": 22184256
-        },
-        {
-          "t": "2026-10-04T13:57:59.142Z",
-          "price": 0.02218,
-          "mc": 22184256
-        },
-        {
-          "t": "2026-10-04T13:58:16.296Z",
-          "price": 0.02217,
-          "mc": 22175957
-        },
-        {
-          "t": "2026-10-04T13:58:31.350Z",
-          "price": 0.02217,
-          "mc": 22175957
-        },
-        {
-          "t": "2026-10-04T13:58:46.415Z",
-          "price": 0.02198,
-          "mc": 21985319
-        }
-      ]
-    }
-  },
-  "lastAlertMc": 21985319
+  "openPaperTrades": {},
+  "lastAlertMc": 20418775
 }
