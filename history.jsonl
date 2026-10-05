@@ -31716,3 +31716,11 @@
 {"t":"2026-10-05T22:47:11.077Z","price":0.01318,"mc":13181643,"liquidity":222694.65,"volume24h":1390131.89,"change5m":-0.89,"change1h":5.03,"change24h":-35.02,"crossed":null,"signals":[]}
 {"t":"2026-10-05T22:47:26.102Z","price":0.01318,"mc":13181643,"liquidity":222694.65,"volume24h":1390131.89,"change5m":0.06,"change1h":5.01,"change24h":-35.02,"crossed":null,"signals":[]}
 {"t":"2026-10-05T22:47:41.140Z","price":0.01318,"mc":13181643,"liquidity":222694.65,"volume24h":1390131.89,"change5m":0.06,"change1h":5.01,"change24h":-35.02,"crossed":null,"signals":[]}
+{"t":"2026-10-05T22:47:58.161Z","price":0.01318,"mc":13181304,"liquidity":222692.3,"volume24h":1390136.28,"change5m":0.05,"change1h":5.01,"change24h":-35.02,"crossed":null,"signals":[]}
+{"t":"2026-10-05T22:48:13.190Z","price":0.01318,"mc":13181304,"liquidity":222692.3,"volume24h":1390136.28,"change5m":0.05,"change1h":5.01,"change24h":-35.02,"crossed":null,"signals":[]}
+{"t":"2026-10-05T22:48:28.225Z","price":0.01318,"mc":13181304,"liquidity":222829.88,"volume24h":1390136.28,"change5m":0.05,"change1h":5.01,"change24h":-35.02,"crossed":null,"signals":[]}
+{"t":"2026-10-05T22:48:43.255Z","price":0.01318,"mc":13181304,"liquidity":222829.88,"volume24h":1390136.28,"change5m":0.05,"change1h":5.01,"change24h":-35.02,"crossed":null,"signals":[]}
+{"t":"2026-10-05T22:48:58.299Z","price":0.01371,"mc":13717761,"liquidity":226275.76,"volume24h":1397499.46,"change5m":4.1,"change1h":9.28,"change24h":-32.38,"crossed":null,"signals":["approaching_ath"]}
+{"t":"2026-10-05T22:49:13.575Z","price":0.01371,"mc":13717761,"liquidity":226275.76,"volume24h":1397499.46,"change5m":4.1,"change1h":9.28,"change24h":-32.38,"crossed":null,"signals":["approaching_ath"]}
+{"t":"2026-10-05T22:49:28.778Z","price":0.01371,"mc":13717761,"liquidity":226275.76,"volume24h":1397499.46,"change5m":4.1,"change1h":9.28,"change24h":-32.38,"crossed":null,"signals":["approaching_ath"]}
+{"t":"2026-10-05T22:49:43.996Z","price":0.01371,"mc":13717761,"liquidity":226275.76,"volume24h":1397499.46,"change5m":4.1,"change1h":9.28,"change24h":-32.38,"crossed":null,"signals":["approaching_ath"]}
