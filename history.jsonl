@@ -36614,3 +36614,10 @@
 {"t":"2026-10-11T06:29:21.825Z","price":0.007601,"mc":7601358,"liquidity":180552.29,"volume24h":43614.65,"change5m":-0.07,"change1h":-0.03,"change24h":-0.06,"crossed":null,"signals":["momentum_down_all_timeframes"]}
 {"t":"2026-10-11T06:29:36.913Z","price":0.007601,"mc":7601358,"liquidity":180552.29,"volume24h":43614.65,"change5m":-0.07,"change1h":0.45,"change24h":-0.06,"crossed":null,"signals":[]}
 {"t":"2026-10-11T06:29:51.945Z","price":0.007601,"mc":7601358,"liquidity":180552.29,"volume24h":43614.65,"change5m":-0.07,"change1h":0.45,"change24h":-0.06,"crossed":null,"signals":[]}
+{"t":"2026-10-11T06:30:08.944Z","price":0.007601,"mc":7601358,"liquidity":180552.29,"volume24h":43614.65,"change5m":-0.07,"change1h":0.45,"change24h":-0.06,"crossed":null,"signals":[]}
+{"t":"2026-10-11T06:30:23.978Z","price":0.007601,"mc":7601358,"liquidity":180552.29,"volume24h":43614.65,"change5m":-0.07,"change1h":0.45,"change24h":-0.06,"crossed":null,"signals":[]}
+{"t":"2026-10-11T06:30:39.064Z","price":0.007601,"mc":7601358,"liquidity":180552.29,"volume24h":43333.31,"change5m":null,"change1h":0.45,"change24h":-0.38,"crossed":null,"signals":[]}
+{"t":"2026-10-11T06:30:54.103Z","price":0.007601,"mc":7601358,"liquidity":180552.29,"volume24h":43333.31,"change5m":null,"change1h":0.45,"change24h":-0.38,"crossed":null,"signals":[]}
+{"t":"2026-10-11T06:31:09.199Z","price":0.007515,"mc":7514942,"liquidity":178974.06,"volume24h":43654.64,"change5m":-1.14,"change1h":-0.69,"change24h":-1.51,"crossed":"support","signals":["approaching_support","broke_below_support","momentum_down_all_timeframes"]}
+{"t":"2026-10-11T06:31:25.648Z","price":0.007515,"mc":7514942,"liquidity":178974.06,"volume24h":43654.64,"change5m":-1.14,"change1h":-0.69,"change24h":-1.51,"crossed":null,"signals":["approaching_support","momentum_down_all_timeframes"]}
+{"t":"2026-10-11T06:31:40.734Z","price":0.007515,"mc":7514942,"liquidity":178972.23,"volume24h":43654.64,"change5m":-1.14,"change1h":-0.69,"change24h":-1.51,"crossed":null,"signals":["approaching_support","momentum_down_all_timeframes"]}
