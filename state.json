@@ -1,7 +1,7 @@
 {
-  "lastMc": 7514942,
-  "lastFullCycleAt": "2026-10-11T06:31:10.604Z",
-  "fullCyclesToday": 3,
+  "lastMc": 7127976,
+  "lastFullCycleAt": "2026-10-11T12:39:48.455Z",
+  "fullCyclesToday": 4,
   "fullCyclesDate": "2026-10-11",
   "lastCall": "TAKE PARTIAL PROFIT",
   "levels": {
@@ -17,71 +17,6 @@
     "invested": 213.11,
     "avgEntryMc": 5900000
   },
-  "openPaperTrades": {
-    "approaching_support": {
-      "signal": "approaching_support",
-      "entryAt": "2026-10-11T05:36:44.173Z",
-      "entryPrice": 0.007567,
-      "entryMc": 7566965,
-      "entrySnippet": [
-        {
-          "t": "2026-10-11T05:36:44.171Z",
-          "price": 0.007567,
-          "mc": 7566965
-        }
-      ]
-    },
-    "broke_below_support": {
-      "signal": "broke_below_support",
-      "entryAt": "2026-10-11T05:36:44.173Z",
-      "entryPrice": 0.007567,
-      "entryMc": 7566965,
-      "entrySnippet": [
-        {
-          "t": "2026-10-11T05:36:44.171Z",
-          "price": 0.007567,
-          "mc": 7566965
-        }
-      ]
-    },
-    "broke_above_support": {
-      "signal": "broke_above_support",
-      "entryAt": "2026-10-11T06:03:50.157Z",
-      "entryPrice": 0.007633,
-      "entryMc": 7632900,
-      "entrySnippet": [
-        {
-          "t": "2026-10-11T06:02:32.836Z",
-          "price": 0.007567,
-          "mc": 7566965
-        },
-        {
-          "t": "2026-10-11T06:02:47.878Z",
-          "price": 0.007567,
-          "mc": 7566965
-        },
-        {
-          "t": "2026-10-11T06:03:02.909Z",
-          "price": 0.007567,
-          "mc": 7566965
-        },
-        {
-          "t": "2026-10-11T06:03:18.006Z",
-          "price": 0.007567,
-          "mc": 7566965
-        },
-        {
-          "t": "2026-10-11T06:03:35.057Z",
-          "price": 0.007567,
-          "mc": 7566965
-        },
-        {
-          "t": "2026-10-11T06:03:50.157Z",
-          "price": 0.007633,
-          "mc": 7632900
-        }
-      ]
-    }
-  },
-  "lastAlertMc": 7514942
+  "openPaperTrades": {},
+  "lastAlertMc": 7127976
 }
