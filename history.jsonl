@@ -38343,3 +38343,9 @@
 {"t":"2026-10-13T10:11:38.536Z","price":0.004437,"mc":4436961,"liquidity":85854.76,"volume24h":342643.34,"change5m":null,"change1h":3.74,"change24h":-38.74,"crossed":null,"signals":["approaching_base"]}
 {"t":"2026-10-13T10:11:53.668Z","price":0.004437,"mc":4436961,"liquidity":85854.76,"volume24h":342643.34,"change5m":null,"change1h":3.74,"change24h":-38.74,"crossed":null,"signals":["approaching_base"]}
 {"t":"2026-10-13T10:12:08.714Z","price":0.004437,"mc":4436961,"liquidity":85854.76,"volume24h":342643.34,"change5m":null,"change1h":3.74,"change24h":-38.74,"crossed":null,"signals":["approaching_base"]}
+{"t":"2026-10-13T10:12:26.080Z","price":0.004437,"mc":4436961,"liquidity":85854.78,"volume24h":342643.34,"change5m":null,"change1h":3.74,"change24h":-38.74,"crossed":null,"signals":["approaching_base"]}
+{"t":"2026-10-13T10:12:41.130Z","price":0.004437,"mc":4436961,"liquidity":85854.78,"volume24h":342643.34,"change5m":null,"change1h":3.74,"change24h":-38.74,"crossed":null,"signals":["approaching_base"]}
+{"t":"2026-10-13T10:12:56.216Z","price":0.004441,"mc":4441845,"liquidity":85919.84,"volume24h":342668.42,"change5m":0.11,"change1h":3.85,"change24h":-38.67,"crossed":null,"signals":["approaching_base"]}
+{"t":"2026-10-13T10:13:11.267Z","price":0.004441,"mc":4441845,"liquidity":85919.84,"volume24h":342668.42,"change5m":0.11,"change1h":3.85,"change24h":-38.67,"crossed":null,"signals":["approaching_base"]}
+{"t":"2026-10-13T10:13:26.407Z","price":0.004441,"mc":4441845,"liquidity":85919.84,"volume24h":342668.42,"change5m":0.11,"change1h":3.13,"change24h":-38.67,"crossed":null,"signals":["approaching_base"]}
+{"t":"2026-10-13T10:13:41.457Z","price":0.004441,"mc":4441845,"liquidity":85919.84,"volume24h":342668.42,"change5m":0.11,"change1h":3.13,"change24h":-38.67,"crossed":null,"signals":["approaching_base"]}
