@@ -40004,3 +40004,11 @@
 {"t":"2026-10-15T02:00:34.382Z","price":0.007307,"mc":7306869,"liquidity":123038.55,"volume24h":48514.93,"change5m":-1.19,"change1h":-3,"change24h":28.27,"crossed":null,"signals":[]}
 {"t":"2026-10-15T02:00:49.427Z","price":0.007307,"mc":7306869,"liquidity":123038.55,"volume24h":48514.93,"change5m":-0.01,"change1h":-3.23,"change24h":28.27,"crossed":null,"signals":[]}
 {"t":"2026-10-15T02:01:04.451Z","price":0.007307,"mc":7306869,"liquidity":123038.55,"volume24h":48514.93,"change5m":-0.01,"change1h":-3.23,"change24h":28.27,"crossed":null,"signals":[]}
+{"t":"2026-10-15T02:01:21.826Z","price":0.007307,"mc":7306869,"liquidity":123038.55,"volume24h":48514.93,"change5m":-0.01,"change1h":-3.23,"change24h":28.27,"crossed":null,"signals":[]}
+{"t":"2026-10-15T02:01:36.848Z","price":0.007307,"mc":7306869,"liquidity":123038.55,"volume24h":48514.93,"change5m":-0.01,"change1h":-3.23,"change24h":28.27,"crossed":null,"signals":[]}
+{"t":"2026-10-15T02:01:51.900Z","price":0.007307,"mc":7306869,"liquidity":123038.55,"volume24h":48514.93,"change5m":-0.01,"change1h":-3.23,"change24h":28.27,"crossed":null,"signals":[]}
+{"t":"2026-10-15T02:02:06.922Z","price":0.007307,"mc":7306869,"liquidity":123038.55,"volume24h":48514.93,"change5m":-0.01,"change1h":-3.23,"change24h":28.27,"crossed":null,"signals":[]}
+{"t":"2026-10-15T02:02:21.961Z","price":0.007307,"mc":7306869,"liquidity":123038.99,"volume24h":48514.93,"change5m":-0.01,"change1h":-3.23,"change24h":28.27,"crossed":null,"signals":[]}
+{"t":"2026-10-15T02:02:36.986Z","price":0.007307,"mc":7306869,"liquidity":123038.99,"volume24h":48514.93,"change5m":-0.01,"change1h":-3.23,"change24h":28.27,"crossed":null,"signals":[]}
+{"t":"2026-10-15T02:02:52.096Z","price":0.007373,"mc":7373266,"liquidity":123807.88,"volume24h":48614.93,"change5m":0.9,"change1h":-2.35,"change24h":29.43,"crossed":null,"signals":["approaching_support"]}
+{"t":"2026-10-15T02:03:07.121Z","price":0.007373,"mc":7373266,"liquidity":123807.88,"volume24h":48614.93,"change5m":0.9,"change1h":-2.35,"change24h":29.43,"crossed":null,"signals":["approaching_support"]}
