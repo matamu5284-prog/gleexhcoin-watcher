@@ -39924,3 +39924,11 @@
 {"t":"2026-10-15T01:40:06.371Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-1.73,"change24h":28.81,"crossed":null,"signals":[]}
 {"t":"2026-10-15T01:40:21.399Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-1.73,"change24h":28.81,"crossed":null,"signals":[]}
 {"t":"2026-10-15T01:40:36.504Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-1.69,"change24h":28.81,"crossed":null,"signals":[]}
+{"t":"2026-10-15T01:40:53.687Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-1.69,"change24h":28.81,"crossed":null,"signals":[]}
+{"t":"2026-10-15T01:41:08.738Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-1.69,"change24h":28.81,"crossed":null,"signals":[]}
+{"t":"2026-10-15T01:41:23.764Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-1.69,"change24h":28.81,"crossed":null,"signals":[]}
+{"t":"2026-10-15T01:41:38.812Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-1.69,"change24h":28.81,"crossed":null,"signals":[]}
+{"t":"2026-10-15T01:41:53.840Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-1.69,"change24h":28.81,"crossed":null,"signals":[]}
+{"t":"2026-10-15T01:42:08.970Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-0.22,"change24h":28.81,"crossed":null,"signals":[]}
+{"t":"2026-10-15T01:42:24.008Z","price":0.007623,"mc":7623380,"liquidity":126698.19,"volume24h":48136.92,"change5m":null,"change1h":-0.22,"change24h":28.81,"crossed":null,"signals":[]}
+{"t":"2026-10-15T01:42:39.115Z","price":0.007556,"mc":7556451,"liquidity":125926.32,"volume24h":48230.16,"change5m":-0.88,"change1h":-1.09,"change24h":27.68,"crossed":"support","signals":["approaching_support","broke_below_support"]}
