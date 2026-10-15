@@ -1,7 +1,7 @@
 {
-  "lastMc": 7522229,
-  "lastFullCycleAt": "2026-10-15T01:32:57.778Z",
-  "fullCyclesToday": 3,
+  "lastMc": 7623380,
+  "lastFullCycleAt": "2026-10-15T01:35:00.792Z",
+  "fullCyclesToday": 4,
   "fullCyclesDate": "2026-10-15",
   "lastCall": "TAKE PARTIAL PROFIT",
   "levels": {
@@ -108,5 +108,5 @@
       ]
     }
   },
-  "lastAlertMc": 7522229
+  "lastAlertMc": 7623380
 }
