@@ -1,5 +1,5 @@
 {
-  "lastMc": 7479626,
+  "lastMc": 7402497,
   "lastFullCycleAt": "2026-10-16T01:16:20.899Z",
   "fullCyclesToday": 2,
   "fullCyclesDate": "2026-10-16",
@@ -53,19 +53,6 @@
           "t": "2026-10-15T23:01:44.011Z",
           "price": 0.007382,
           "mc": 7382080
-        }
-      ]
-    },
-    "broke_above_support": {
-      "signal": "broke_above_support",
-      "entryAt": "2026-10-16T01:12:46.046Z",
-      "entryPrice": 0.007664,
-      "entryMc": 7664699,
-      "entrySnippet": [
-        {
-          "t": "2026-10-16T01:12:46.046Z",
-          "price": 0.007664,
-          "mc": 7664699
         }
       ]
     },
