@@ -41975,3 +41975,11 @@
 {"t":"2026-10-16T21:43:08.411Z","price":0.00839,"mc":8389905,"liquidity":133757.35,"volume24h":33413.27,"change5m":-0.01,"change1h":5.2,"change24h":16.81,"crossed":null,"signals":[]}
 {"t":"2026-10-16T21:43:23.457Z","price":0.00839,"mc":8389905,"liquidity":133757.35,"volume24h":33413.27,"change5m":-0.01,"change1h":5.2,"change24h":16.81,"crossed":null,"signals":[]}
 {"t":"2026-10-16T21:43:38.514Z","price":0.00839,"mc":8389905,"liquidity":133757.35,"volume24h":33413.27,"change5m":null,"change1h":5.2,"change24h":16.81,"crossed":null,"signals":[]}
+{"t":"2026-10-16T21:43:55.528Z","price":0.00839,"mc":8389905,"liquidity":133757.35,"volume24h":33413.27,"change5m":null,"change1h":5.2,"change24h":16.81,"crossed":null,"signals":[]}
+{"t":"2026-10-16T21:44:10.654Z","price":0.00839,"mc":8389905,"liquidity":133757.35,"volume24h":33413.27,"change5m":null,"change1h":5.2,"change24h":16.81,"crossed":null,"signals":[]}
+{"t":"2026-10-16T21:44:25.693Z","price":0.00839,"mc":8389905,"liquidity":133757.35,"volume24h":33413.27,"change5m":null,"change1h":5.2,"change24h":16.81,"crossed":null,"signals":[]}
+{"t":"2026-10-16T21:44:40.729Z","price":0.00834,"mc":8340351,"liquidity":133193.03,"volume24h":33499.99,"change5m":-0.59,"change1h":4.57,"change24h":16.12,"crossed":null,"signals":[]}
+{"t":"2026-10-16T21:44:55.773Z","price":0.00834,"mc":8340351,"liquidity":133193.03,"volume24h":33499.99,"change5m":-0.59,"change1h":4.57,"change24h":16.12,"crossed":null,"signals":[]}
+{"t":"2026-10-16T21:45:10.839Z","price":0.008359,"mc":8359705,"liquidity":133413.5,"volume24h":33534.26,"change5m":-0.36,"change1h":4.82,"change24h":16.39,"crossed":null,"signals":[]}
+{"t":"2026-10-16T21:45:25.879Z","price":0.008359,"mc":8359705,"liquidity":133413.5,"volume24h":33534.26,"change5m":-0.36,"change1h":4.82,"change24h":16.39,"crossed":null,"signals":[]}
+{"t":"2026-10-16T21:45:40.942Z","price":0.008477,"mc":8477679,"liquidity":134755.81,"volume24h":33703.81,"change5m":1.05,"change1h":6.3,"change24h":18.04,"crossed":null,"signals":["momentum_up_all_timeframes"]}
