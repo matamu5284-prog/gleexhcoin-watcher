@@ -1,7 +1,7 @@
 {
-  "lastMc": 8963490,
-  "lastFullCycleAt": "2026-10-17T09:46:07.384Z",
-  "fullCyclesToday": 5,
+  "lastMc": 8887022,
+  "lastFullCycleAt": "2026-10-17T13:39:01.374Z",
+  "fullCyclesToday": 6,
   "fullCyclesDate": "2026-10-17",
   "lastCall": "TAKE PARTIAL PROFIT",
   "levels": {
@@ -20,93 +20,17 @@
   "openPaperTrades": {
     "approaching_pivot": {
       "signal": "approaching_pivot",
-      "entryAt": "2026-10-17T09:13:14.149Z",
-      "entryPrice": 0.00902,
-      "entryMc": 9020448,
+      "entryAt": "2026-10-17T13:39:01.045Z",
+      "entryPrice": 0.008887,
+      "entryMc": 8887022,
       "entrySnippet": [
         {
-          "t": "2026-10-17T09:13:14.148Z",
-          "price": 0.00902,
-          "mc": 9020448
-        }
-      ]
-    },
-    "broke_above_pivot": {
-      "signal": "broke_above_pivot",
-      "entryAt": "2026-10-17T09:20:07.510Z",
-      "entryPrice": 0.009064,
-      "entryMc": 9064696,
-      "entrySnippet": [
-        {
-          "t": "2026-10-17T09:18:50.332Z",
-          "price": 0.00902,
-          "mc": 9020448
-        },
-        {
-          "t": "2026-10-17T09:19:05.385Z",
-          "price": 0.00902,
-          "mc": 9020448
-        },
-        {
-          "t": "2026-10-17T09:19:20.414Z",
-          "price": 0.00902,
-          "mc": 9020448
-        },
-        {
-          "t": "2026-10-17T09:19:37.425Z",
-          "price": 0.00902,
-          "mc": 9020448
-        },
-        {
-          "t": "2026-10-17T09:19:52.454Z",
-          "price": 0.00902,
-          "mc": 9020448
-        },
-        {
-          "t": "2026-10-17T09:20:07.510Z",
-          "price": 0.009064,
-          "mc": 9064696
-        }
-      ]
-    },
-    "broke_below_pivot": {
-      "signal": "broke_below_pivot",
-      "entryAt": "2026-10-17T09:46:07.141Z",
-      "entryPrice": 0.008992,
-      "entryMc": 8992503,
-      "entrySnippet": [
-        {
-          "t": "2026-10-17T09:44:50.060Z",
-          "price": 0.009054,
-          "mc": 9054778
-        },
-        {
-          "t": "2026-10-17T09:45:05.107Z",
-          "price": 0.009054,
-          "mc": 9054778
-        },
-        {
-          "t": "2026-10-17T09:45:20.137Z",
-          "price": 0.009054,
-          "mc": 9054778
-        },
-        {
-          "t": "2026-10-17T09:45:35.184Z",
-          "price": 0.009054,
-          "mc": 9054778
-        },
-        {
-          "t": "2026-10-17T09:45:50.213Z",
-          "price": 0.009054,
-          "mc": 9054778
-        },
-        {
-          "t": "2026-10-17T09:46:07.141Z",
-          "price": 0.008992,
-          "mc": 8992503
+          "t": "2026-10-17T13:39:01.042Z",
+          "price": 0.008887,
+          "mc": 8887022
         }
       ]
     }
   },
-  "lastAlertMc": 8992503
+  "lastAlertMc": 8887022
 }
