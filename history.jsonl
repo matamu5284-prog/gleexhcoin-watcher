@@ -44548,3 +44548,11 @@
 {"t":"2026-10-18T18:41:37.371Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.3,"change24h":-13.01,"crossed":null,"signals":[]}
 {"t":"2026-10-18T18:41:52.413Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.3,"change24h":-13.01,"crossed":null,"signals":[]}
 {"t":"2026-10-18T18:42:07.447Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.3,"change24h":-13.01,"crossed":null,"signals":[]}
+{"t":"2026-10-18T18:42:24.767Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.3,"change24h":-13.01,"crossed":null,"signals":[]}
+{"t":"2026-10-18T18:42:39.796Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.3,"change24h":-13.01,"crossed":null,"signals":[]}
+{"t":"2026-10-18T18:42:54.843Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.3,"change24h":-13.01,"crossed":null,"signals":[]}
+{"t":"2026-10-18T18:43:09.880Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.3,"change24h":-13.01,"crossed":null,"signals":[]}
+{"t":"2026-10-18T18:43:24.919Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.3,"change24h":-13.01,"crossed":null,"signals":[]}
+{"t":"2026-10-18T18:43:39.955Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.05,"change24h":-13.01,"crossed":null,"signals":[]}
+{"t":"2026-10-18T18:43:54.986Z","price":0.007042,"mc":7041852,"liquidity":114396.12,"volume24h":23556.78,"change5m":null,"change1h":-0.05,"change24h":-13.01,"crossed":null,"signals":[]}
+{"t":"2026-10-18T18:44:10.011Z","price":0.007035,"mc":7035137,"liquidity":114319.15,"volume24h":23580.87,"change5m":-0.1,"change1h":-0.14,"change24h":-13.09,"crossed":null,"signals":["momentum_down_all_timeframes"]}
