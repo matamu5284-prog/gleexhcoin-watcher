@@ -46103,3 +46103,10 @@
 {"t":"2026-10-20T01:08:07.030Z","price":0.007476,"mc":7476789,"liquidity":130708.23,"volume24h":13743.83,"change5m":null,"change1h":0.15,"change24h":-4.52,"crossed":null,"signals":["approaching_support"]}
 {"t":"2026-10-20T01:08:22.063Z","price":0.007476,"mc":7476789,"liquidity":130708.23,"volume24h":13743.83,"change5m":null,"change1h":0.15,"change24h":-4.52,"crossed":null,"signals":["approaching_support"]}
 {"t":"2026-10-20T01:08:37.134Z","price":0.007476,"mc":7476789,"liquidity":130708.23,"volume24h":13743.83,"change5m":null,"change1h":0.15,"change24h":-4.52,"crossed":null,"signals":["approaching_support"]}
+{"t":"2026-10-20T01:08:54.284Z","price":0.007476,"mc":7476789,"liquidity":130708.23,"volume24h":13743.83,"change5m":null,"change1h":0.15,"change24h":-4.52,"crossed":null,"signals":["approaching_support"]}
+{"t":"2026-10-20T01:09:09.361Z","price":0.007476,"mc":7476789,"liquidity":130708.23,"volume24h":13743.83,"change5m":null,"change1h":0.15,"change24h":-4.52,"crossed":null,"signals":["approaching_support"]}
+{"t":"2026-10-20T01:09:24.394Z","price":0.007476,"mc":7476789,"liquidity":130708.23,"volume24h":13743.83,"change5m":null,"change1h":0.15,"change24h":-4.52,"crossed":null,"signals":["approaching_support"]}
+{"t":"2026-10-20T01:09:39.466Z","price":0.007476,"mc":7476789,"liquidity":130708.23,"volume24h":13743.83,"change5m":null,"change1h":-0.2,"change24h":-4.52,"crossed":null,"signals":["approaching_support"]}
+{"t":"2026-10-20T01:09:54.520Z","price":0.007476,"mc":7476789,"liquidity":130708.23,"volume24h":13743.83,"change5m":null,"change1h":-0.2,"change24h":-4.52,"crossed":null,"signals":["approaching_support"]}
+{"t":"2026-10-20T01:10:09.608Z","price":0.007488,"mc":7488429,"liquidity":130843.2,"volume24h":13763.59,"change5m":0.16,"change1h":-0.05,"change24h":-4.37,"crossed":null,"signals":["approaching_support"]}
+{"t":"2026-10-20T01:10:24.638Z","price":0.007488,"mc":7488429,"liquidity":130843.2,"volume24h":13763.59,"change5m":0.16,"change1h":-0.05,"change24h":-4.37,"crossed":null,"signals":["approaching_support"]}
