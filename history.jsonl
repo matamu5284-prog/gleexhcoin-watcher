@@ -47460,3 +47460,11 @@
 {"t":"2026-10-21T10:16:00.371Z","price":0.00665,"mc":6650323,"liquidity":105697.27,"volume24h":62214.3,"change5m":null,"change1h":-0.36,"change24h":-10.76,"crossed":null,"signals":[]}
 {"t":"2026-10-21T10:16:15.392Z","price":0.00665,"mc":6650323,"liquidity":105697.27,"volume24h":62214.3,"change5m":null,"change1h":-0.36,"change24h":-10.76,"crossed":null,"signals":[]}
 {"t":"2026-10-21T10:16:30.419Z","price":0.00665,"mc":6650323,"liquidity":105697.27,"volume24h":62214.3,"change5m":null,"change1h":-0.36,"change24h":-10.76,"crossed":null,"signals":[]}
+{"t":"2026-10-21T10:16:47.762Z","price":0.00665,"mc":6650323,"liquidity":105697.27,"volume24h":62214.3,"change5m":null,"change1h":-0.36,"change24h":-10.76,"crossed":null,"signals":[]}
+{"t":"2026-10-21T10:17:02.782Z","price":0.00665,"mc":6650323,"liquidity":105697.27,"volume24h":62214.3,"change5m":null,"change1h":-0.36,"change24h":-10.76,"crossed":null,"signals":[]}
+{"t":"2026-10-21T10:17:17.819Z","price":0.00665,"mc":6650323,"liquidity":105697.27,"volume24h":62214.3,"change5m":null,"change1h":-0.36,"change24h":-10.76,"crossed":null,"signals":[]}
+{"t":"2026-10-21T10:17:32.882Z","price":0.006721,"mc":6721102,"liquidity":106539.1,"volume24h":62452.41,"change5m":1.06,"change1h":0.7,"change24h":-9.81,"crossed":null,"signals":[]}
+{"t":"2026-10-21T10:17:47.915Z","price":0.006721,"mc":6721102,"liquidity":106539.1,"volume24h":62452.41,"change5m":1.06,"change1h":0.7,"change24h":-9.81,"crossed":null,"signals":[]}
+{"t":"2026-10-21T10:18:02.945Z","price":0.006721,"mc":6721102,"liquidity":106539.1,"volume24h":62452.41,"change5m":1.06,"change1h":0.7,"change24h":-9.81,"crossed":null,"signals":[]}
+{"t":"2026-10-21T10:18:17.980Z","price":0.006721,"mc":6721102,"liquidity":106539.1,"volume24h":62452.41,"change5m":1.06,"change1h":0.7,"change24h":-9.81,"crossed":null,"signals":[]}
+{"t":"2026-10-21T10:18:33.003Z","price":0.006721,"mc":6721102,"liquidity":106539.1,"volume24h":62452.41,"change5m":1.06,"change1h":0.67,"change24h":-9.81,"crossed":null,"signals":[]}
