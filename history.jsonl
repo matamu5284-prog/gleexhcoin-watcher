@@ -50787,3 +50787,11 @@
 {"t":"2026-10-24T06:20:44.044Z","price":0.005678,"mc":5678163,"liquidity":98114.64,"volume24h":4726.37,"change5m":null,"change1h":-1.34,"change24h":-0.26,"crossed":null,"signals":[]}
 {"t":"2026-10-24T06:20:59.085Z","price":0.005678,"mc":5678163,"liquidity":98114.64,"volume24h":4726.37,"change5m":null,"change1h":-1.34,"change24h":-0.26,"crossed":null,"signals":[]}
 {"t":"2026-10-24T06:21:14.151Z","price":0.005678,"mc":5678163,"liquidity":98114.64,"volume24h":4726.37,"change5m":null,"change1h":-1.34,"change24h":-0.26,"crossed":null,"signals":[]}
+{"t":"2026-10-24T06:21:31.305Z","price":0.005678,"mc":5678163,"liquidity":98114.64,"volume24h":4726.37,"change5m":null,"change1h":-1.34,"change24h":-0.26,"crossed":null,"signals":[]}
+{"t":"2026-10-24T06:21:46.359Z","price":0.005678,"mc":5678163,"liquidity":98114.64,"volume24h":4726.37,"change5m":null,"change1h":-1.34,"change24h":-0.26,"crossed":null,"signals":[]}
+{"t":"2026-10-24T06:22:01.398Z","price":0.005678,"mc":5678163,"liquidity":98114.64,"volume24h":4726.37,"change5m":null,"change1h":-1.34,"change24h":-0.26,"crossed":null,"signals":[]}
+{"t":"2026-10-24T06:22:16.451Z","price":0.005653,"mc":5653129,"liquidity":97811.98,"volume24h":4791.45,"change5m":-0.44,"change1h":-1.77,"change24h":-0.7,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-10-24T06:22:31.491Z","price":0.005653,"mc":5653129,"liquidity":97811.98,"volume24h":4791.45,"change5m":-0.44,"change1h":-1.77,"change24h":-0.7,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-10-24T06:22:46.546Z","price":0.005653,"mc":5653129,"liquidity":97811.83,"volume24h":4791.45,"change5m":-0.44,"change1h":-1.77,"change24h":-0.7,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-10-24T06:23:01.586Z","price":0.005653,"mc":5653129,"liquidity":97811.83,"volume24h":4791.45,"change5m":-0.44,"change1h":-1.77,"change24h":-0.7,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-10-24T06:23:16.666Z","price":0.005653,"mc":5653129,"liquidity":97811.83,"volume24h":4791.45,"change5m":-0.44,"change1h":-1.77,"change24h":-0.7,"crossed":null,"signals":["momentum_down_all_timeframes"]}
