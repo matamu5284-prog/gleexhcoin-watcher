@@ -56840,3 +56840,11 @@
 {"t":"2026-10-29T20:57:31.782Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
 {"t":"2026-10-29T20:57:46.841Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
 {"t":"2026-10-29T20:58:01.889Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
+{"t":"2026-10-29T20:58:19.734Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
+{"t":"2026-10-29T20:58:34.814Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
+{"t":"2026-10-29T20:58:49.936Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
+{"t":"2026-10-29T20:59:05.102Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
+{"t":"2026-10-29T20:59:20.148Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
+{"t":"2026-10-29T20:59:35.267Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
+{"t":"2026-10-29T20:59:50.334Z","price":0.005456,"mc":5456781,"liquidity":78395.91,"volume24h":5289.48,"change5m":null,"change1h":-4.92,"change24h":-20.94,"crossed":null,"signals":[]}
+{"t":"2026-10-29T21:00:05.450Z","price":0.005408,"mc":5408386,"liquidity":77818.64,"volume24h":5398.66,"change5m":-0.89,"change1h":-5.76,"change24h":-21.64,"crossed":null,"signals":["momentum_down_all_timeframes"]}
