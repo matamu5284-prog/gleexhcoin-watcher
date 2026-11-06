@@ -63468,3 +63468,11 @@
 {"t":"2026-11-06T23:42:05.567Z","price":0.005303,"mc":5303187,"liquidity":88277.12,"volume24h":14850.98,"change5m":1.22,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
 {"t":"2026-11-06T23:42:20.652Z","price":0.005303,"mc":5303187,"liquidity":88277.12,"volume24h":14850.98,"change5m":1.22,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
 {"t":"2026-11-06T23:42:35.764Z","price":0.005303,"mc":5303187,"liquidity":88277.12,"volume24h":14850.98,"change5m":1.22,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
+{"t":"2026-11-06T23:42:53.413Z","price":0.005303,"mc":5303187,"liquidity":88277.12,"volume24h":14850.98,"change5m":1.22,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
+{"t":"2026-11-06T23:43:08.513Z","price":0.005303,"mc":5303187,"liquidity":88277.12,"volume24h":14850.98,"change5m":1.22,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
+{"t":"2026-11-06T23:43:23.556Z","price":0.005303,"mc":5303187,"liquidity":88277.12,"volume24h":14850.98,"change5m":1.22,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
+{"t":"2026-11-06T23:43:38.645Z","price":0.005303,"mc":5303187,"liquidity":88277.12,"volume24h":14850.98,"change5m":null,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
+{"t":"2026-11-06T23:43:53.682Z","price":0.005303,"mc":5303187,"liquidity":88277.12,"volume24h":14850.98,"change5m":null,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
+{"t":"2026-11-06T23:44:08.777Z","price":0.005303,"mc":5302997,"liquidity":88274.84,"volume24h":14851.69,"change5m":null,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
+{"t":"2026-11-06T23:44:23.813Z","price":0.005303,"mc":5302997,"liquidity":88274.84,"volume24h":14851.69,"change5m":null,"change1h":-0.11,"change24h":-17.15,"crossed":null,"signals":[]}
+{"t":"2026-11-06T23:44:38.967Z","price":0.005299,"mc":5299594,"liquidity":88233.94,"volume24h":14864.51,"change5m":-0.07,"change1h":-0.17,"change24h":-17.21,"crossed":null,"signals":["momentum_down_all_timeframes"]}
