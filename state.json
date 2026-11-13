@@ -1,7 +1,7 @@
 {
-  "lastMc": 4747442,
-  "lastFullCycleAt": "2026-11-13T00:10:46.235Z",
-  "fullCyclesToday": 1,
+  "lastMc": 4484508,
+  "lastFullCycleAt": "2026-11-13T07:49:50.497Z",
+  "fullCyclesToday": 2,
   "fullCyclesDate": "2026-11-13",
   "lastCall": "TAKE PARTIAL PROFIT",
   "levels": {
@@ -18,5 +18,5 @@
     "avgEntryMc": 5900000
   },
   "openPaperTrades": {},
-  "lastAlertMc": 4725583
+  "lastAlertMc": 4484508
 }
