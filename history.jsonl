@@ -68848,3 +68848,11 @@
 {"t":"2026-11-13T23:18:14.832Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":-9.22,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":["momentum_down_all_timeframes"]}
 {"t":"2026-11-13T23:18:29.925Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":-9.22,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":["momentum_down_all_timeframes"]}
 {"t":"2026-11-13T23:18:44.964Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":-9.22,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-11-13T23:19:02.556Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":-9.22,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-11-13T23:19:17.597Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":-9.22,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":["momentum_down_all_timeframes"]}
+{"t":"2026-11-13T23:19:32.697Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":0.26,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":[]}
+{"t":"2026-11-13T23:19:47.738Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":0.26,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":[]}
+{"t":"2026-11-13T23:20:02.967Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":0.26,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":[]}
+{"t":"2026-11-13T23:20:18.008Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":0.26,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":[]}
+{"t":"2026-11-13T23:20:33.136Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":null,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":[]}
+{"t":"2026-11-13T23:20:48.168Z","price":0.004022,"mc":4021997,"liquidity":250460.26,"volume24h":105737.62,"change5m":null,"change1h":-9.58,"change24h":-16.39,"crossed":null,"signals":[]}
