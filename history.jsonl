@@ -71046,3 +71046,11 @@
 {"t":"2026-11-16T20:27:30.972Z","price":0.00453,"mc":4530151,"liquidity":63001.66,"volume24h":2023.47,"change5m":null,"change1h":5.59,"change24h":20.6,"crossed":null,"signals":[]}
 {"t":"2026-11-16T20:27:46.127Z","price":0.00453,"mc":4530151,"liquidity":63001.66,"volume24h":2023.47,"change5m":null,"change1h":5.59,"change24h":20.6,"crossed":null,"signals":[]}
 {"t":"2026-11-16T20:28:01.206Z","price":0.00453,"mc":4530151,"liquidity":63001.66,"volume24h":2023.47,"change5m":null,"change1h":5.59,"change24h":20.6,"crossed":null,"signals":[]}
+{"t":"2026-11-16T20:28:19.216Z","price":0.00453,"mc":4530151,"liquidity":63001.66,"volume24h":2023.47,"change5m":null,"change1h":5.59,"change24h":20.6,"crossed":null,"signals":[]}
+{"t":"2026-11-16T20:28:34.265Z","price":0.00453,"mc":4530151,"liquidity":63001.66,"volume24h":2023.47,"change5m":null,"change1h":5.59,"change24h":20.6,"crossed":null,"signals":[]}
+{"t":"2026-11-16T20:28:49.381Z","price":0.00453,"mc":4530151,"liquidity":63001.66,"volume24h":2023.47,"change5m":null,"change1h":5.59,"change24h":20.6,"crossed":null,"signals":[]}
+{"t":"2026-11-16T20:29:04.425Z","price":0.00453,"mc":4530151,"liquidity":63001.66,"volume24h":2023.47,"change5m":null,"change1h":5.59,"change24h":20.6,"crossed":null,"signals":[]}
+{"t":"2026-11-16T20:29:19.566Z","price":0.004368,"mc":4368504,"liquidity":61134.16,"volume24h":2067.47,"change5m":-3.57,"change1h":1.82,"change24h":16.3,"crossed":"base","signals":["broke_below_base"]}
+{"t":"2026-11-16T20:29:34.913Z","price":0.004368,"mc":4368504,"liquidity":61134.16,"volume24h":2067.47,"change5m":-3.57,"change1h":1.82,"change24h":16.3,"crossed":null,"signals":[]}
+{"t":"2026-11-16T20:29:50.297Z","price":0.004439,"mc":4438918,"liquidity":61947.85,"volume24h":2086.96,"change5m":-2.01,"change1h":3.47,"change24h":18.17,"crossed":null,"signals":["approaching_base"]}
+{"t":"2026-11-16T20:30:05.735Z","price":0.004439,"mc":4438918,"liquidity":61947.85,"volume24h":2086.96,"change5m":-2.01,"change1h":3.47,"change24h":18.17,"crossed":null,"signals":["approaching_base"]}
