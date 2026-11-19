@@ -72989,3 +72989,11 @@
 {"t":"2026-11-19T21:36:29.461Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
 {"t":"2026-11-19T21:36:44.505Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
 {"t":"2026-11-19T21:36:59.728Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
+{"t":"2026-11-19T21:37:17.799Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
+{"t":"2026-11-19T21:37:32.895Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
+{"t":"2026-11-19T21:37:47.943Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
+{"t":"2026-11-19T21:38:03.040Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
+{"t":"2026-11-19T21:38:18.081Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
+{"t":"2026-11-19T21:38:33.193Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
+{"t":"2026-11-19T21:38:48.228Z","price":0.002441,"mc":2441493,"liquidity":38110.71,"volume24h":28268.95,"change5m":null,"change1h":-15.49,"change24h":-19.39,"crossed":null,"signals":[]}
+{"t":"2026-11-19T21:39:03.352Z","price":0.002421,"mc":2421653,"liquidity":37866.93,"volume24h":28338.43,"change5m":-0.81,"change1h":-16.17,"change24h":-20.04,"crossed":null,"signals":["momentum_down_all_timeframes"]}
